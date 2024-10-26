@@ -1,5 +1,3 @@
-# PwdFinder.py
-
 import datetime as dt
 import itertools
 import logging
@@ -32,7 +30,6 @@ def _keyframe_iter(url: str, threshold=0.8) -> Generator[tuple[int, np.ndarray],
         if not ret:
             break
 
-        # frame = frame[height * 3 // 4:height, 0:width]
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         if prev is not None and ssim(prev, gray) < threshold:
             yield i, frame
@@ -55,12 +52,10 @@ class PwdFinder:
         self.name = name
         self.logger = logger
 
-        yt = pytubefix.YouTube(url, use_oauth=True, use_po_token=True,
-                               allow_oauth_cache=True,
+        # 修改：不使用 OAuth 验证
+        yt = pytubefix.YouTube(url, use_oauth=False, use_po_token=False,
+                               allow_oauth_cache=False,
                                on_progress_callback=on_progress)
-
-        # date = yt.publish_date.date() # Not working
-        # self.date = date.strftime("%Y-%m-%d")
 
         match = re.search(r"(?:\d{4}[-年])?(\d{1,2})[-月](\d{1,2})", yt.title)
         if not match:
@@ -75,14 +70,14 @@ class PwdFinder:
         if not self.subtitles:
             self.logger.warning(f"{name} found no subtitles")
 
-            opt = ["360p", "480p", "720p"]
-            self.stream = yt.streams.filter(res=opt).get_lowest_resolution()
-            if not self.stream:
-                self.logger.error(f"{name} found no video stream")
-                return
+        opt = ["360p", "480p", "720p"]
+        self.stream = yt.streams.filter(res=opt).get_lowest_resolution()
+        if not self.stream:
+            self.logger.error(f"{name} found no video stream")
+            return
 
-            self.logger.info(f"{name} found a video stream")
-            self.ocr = PaddleOCR(use_angle_cls=True, lang="ch")
+        self.logger.info(f"{name} found a video stream")
+        self.ocr = PaddleOCR(use_angle_cls=True, lang="ch")
 
     def _xml_caption_iter(self):
         """Generate subtitles."""
@@ -116,7 +111,7 @@ class PwdFinder:
 
 
 if __name__ == "__main__":
-    logging.disable(logging.DEBUG)
+    logging.basicConfig(level=logging.DEBUG)
     urls = ['https://www.youtube.com/watch?v=StNJHi5b2oM',
             'https://www.youtube.com/watch?v=is7vn5URVcc']
     logger = logging.getLogger()
