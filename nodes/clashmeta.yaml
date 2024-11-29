@@ -6,260 +6,105 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)
+  name: 美国(yudou66.com 玉豆免费节点)
   network: ws
   port: 2082
-  server: russia.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-headers:
-    Host: ip18.6929198.xyz
-  ws-path: /github.com/Alvin9999
-- alterId: 64
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 2
-  port: 52112
-  server: 183.236.51.23
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 3
-  port: 52112
-  server: 183.236.51.23
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 4
-  network: ws
-  port: 2082
-  server: icook.tw
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-headers:
-    Host: ip3.6929198.xyz
-  ws-path: github.com/Alvin9999
-- alterId: 64
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 5
-  port: 59952
-  server: 183.236.48.158
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 6
-  network: ws
-  port: 2082
-  server: singapore.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-headers:
-    Host: ip26.6929198.xyz
-  ws-path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: HK香港(mibei77.com 米贝节点分享)
-  network: ws
-  port: 33416
-  server: yd2.ainivp.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-  ws-headers:
-    Host: yd2.ainivp.com
-  ws-path: /ray
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 7
-  network: ws
-  port: 2095
-  server: singapore.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-headers:
-    Host: ip2.6016725.xyz
-  ws-path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: HK香港(mibei77.com 米贝节点分享) 2
-  network: ws
-  port: 33416
-  server: yd2.ainivp.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-  ws-headers:
-    Host: yd2.ainivp.com
-  ws-path: /ray
-- alterId: 64
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 8
-  port: 58002
-  server: 120.232.153.27
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 9
-  network: ws
-  port: 2095
   server: ip.sb
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip3.6929198.xyz
+  ws-path: github.com/Alvin9999
+- name: 美国(yudou66.com 玉豆免费节点) 2
+  password: NISHIKUITAN111
+  port: 443
+  server: 92.53.190.218
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 美国(yudou66.com 玉豆免费节点) 3
+  password: lGqs95QkFHo2NV
+  port: 5498
+  server: 69.50.95.53
+  type: ss
+  udp: true
+- name: 美国(yudou66.com 玉豆免费节点) 4
+  password: NISHIKUITAN111
+  port: 443
+  server: 154.211.8.126
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 5
+  network: ws
+  port: 2095
+  server: icook.tw
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-headers:
     Host: ip2.6016725.xyz
   ws-path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 10
-  network: ws
-  port: 33202
-  server: yd2.ainivp.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-  ws-headers:
-    Host: yd2.ainivp.com
-  ws-path: /ray
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 11
-  network: ws
-  port: 2082
-  server: icook.tw
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-headers:
-    Host: ip3.6929198.xyz
-  ws-path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 12
+  name: 美国(yudou66.com 玉豆免费节点) 6
   network: ws
   port: 80
-  server: hsj.lbxjc.online
+  server: speed.cloudflare.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
   ws-headers:
-    Host: chunchuan.kejixiaoqi666.store
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 13
-  network: ws
-  port: 2095
-  server: russia.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-headers:
-    Host: ip11.6016725.xyz
-  ws-path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 14
-  network: ws
-  port: 2082
-  server: ip.sb
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-headers:
-    Host: ip3.6929198.xyz
-  ws-path: github.com/Alvin9999
+    Host: 52aa-super-river-52aa.pobin49599.workers.dev
+  ws-path: /obdii.cfd/linkws
 - cipher: aes-256-gcm
-  name: HK香港(mibei77.com 米贝节点分享) 3
-  password: cbd12f94-bfa2-4079-95bb-50c49d7aaf7e
-  port: 30017
-  server: 117.176.203.229
+  name: 美国(yudou66.com 玉豆免费节点) 7
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 69.50.95.53
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 15
+  name: 美国(yudou66.com 玉豆免费节点) 8
   network: ws
   port: 2082
-  server: malaysia.com
+  server: 190.93.247.203
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-headers:
-    Host: ip3.6929198.xyz
-  ws-path: github.com/Alvin9999
-- alterId: 64
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 16
-  port: 58831
-  server: 183.236.48.163
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 17
+  name: 美国(yudou66.com 玉豆免费节点) 9
   network: ws
   port: 2082
-  server: russia.com
+  server: 190.93.244.64
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-headers:
-    Host: ip26.6929198.xyz
-  ws-path: github.com/Alvin9999
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 18
+  name: 美国(yudou66.com 玉豆免费节点) 10
   network: ws
   port: 2082
   server: fbi.gov
@@ -273,112 +118,64 @@ proxies:
   ws-path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 19
-  network: ws
-  port: 2095
-  server: fbi.gov
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-headers:
-    Host: ip2.6016725.xyz
-  ws-path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 20
+  name: 美国(yudou66.com 玉豆免费节点) 11
   network: ws
   port: 2082
-  server: japan.com
+  server: 190.93.247.23
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-headers:
-    Host: ip3.6929198.xyz
-  ws-path: github.com/Alvin9999
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 21
+  name: 美国(yudou66.com 玉豆免费节点) 12
   network: ws
-  port: 2095
-  server: singapore.com
+  port: 2086
+  server: shs.xiaoqi666.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
   ws-headers:
-    Host: ip11.6016725.xyz
-  ws-path: /github.com/Alvin9999
+    Host: shs.xiaoqi666.xyz
+  ws-path: /
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 22
+  name: 美国(yudou66.com 玉豆免费节点) 13
   network: ws
   port: 2082
-  server: malaysia.com
+  server: 190.93.245.103
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-headers:
-    Host: ip3.6929198.xyz
-  ws-path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 23
-  network: ws
-  port: 2095
-  server: icook.tw
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-headers:
-    Host: ip15.6016725.xyz
+    Host: ip18.6929198.xyz
   ws-path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 24
+  name: 加拿大(yudou66.com 玉豆免费节点)
   network: ws
-  port: 2095
-  server: fbi.gov
+  port: 2082
+  server: 190.93.246.196
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-headers:
-    Host: ip20.6016725.xyz
+    Host: ip18.6929198.xyz
   ws-path: /github.com/Alvin9999
 - alterId: 64
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 25
-  port: 58831
-  server: 120.232.153.27
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 26
-  port: 53002
-  server: 183.236.51.23
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 27
-  port: 46602
+  name: 美国(yudou66.com 玉豆免费节点) 14
+  port: 51704
   server: 183.236.51.23
   skip-cert-verify: true
   tls: false
@@ -387,181 +184,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 28
-  network: ws
-  port: 2082
-  server: fbi.gov
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-headers:
-    Host: ip3.6929198.xyz
-  ws-path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 29
-  network: ws
-  port: 2082
-  server: singapore.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-headers:
-    Host: ip26.6929198.xyz
-  ws-path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 30
-  network: ws
-  port: 2082
-  server: japan.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-headers:
-    Host: ip3.6929198.xyz
-  ws-path: github.com/Alvin9999
-- alterId: 64
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 31
-  port: 58831
-  server: 120.232.153.27
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 32
-  network: ws
-  port: 2095
-  server: ip.sb
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-headers:
-    Host: ip20.6016725.xyz
-  ws-path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 33
-  network: ws
-  port: 2082
-  server: russia.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-headers:
-    Host: ip3.6929198.xyz
-  ws-path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 34
-  network: ws
-  port: 2082
-  server: icook.tw
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-headers:
-    Host: ip16.6929198.xyz
-  ws-path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 35
-  network: ws
-  port: 2082
-  server: singapore.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-headers:
-    Host: ip3.6929198.xyz
-  ws-path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 36
-  network: ws
-  port: 2095
-  server: russia.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-headers:
-    Host: ip11.6016725.xyz
-  ws-path: /github.com/Alvin9999
-- alterId: 64
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 37
-  port: 58831
-  server: 183.236.48.163
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 38
-  network: ws
-  port: 2095
-  server: singapore.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-headers:
-    Host: ip20.6016725.xyz
-  ws-path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 39
-  network: ws
-  port: 2095
-  server: singapore.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-headers:
-    Host: ip11.6016725.xyz
-  ws-path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 40
-  network: ws
-  port: 2095
-  server: malaysia.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-headers:
-    Host: ip2.6016725.xyz
-  ws-path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 41
+  name: 美国(yudou66.com 玉豆免费节点) 15
   network: ws
   port: 2095
   server: ip.sb
@@ -575,21 +198,157 @@ proxies:
   ws-path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 42
+  name: 加拿大(yudou66.com 玉豆免费节点) 2
   network: ws
-  port: 2095
-  server: fbi.gov
+  port: 2082
+  server: russia.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-headers:
-    Host: ip20.6016725.xyz
+    Host: ip18.6929198.xyz
   ws-path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 43
+  name: 美国(yudou66.com 玉豆免费节点) 16
+  network: ws
+  port: 2082
+  server: ip.sb
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip3.6929198.xyz
+  ws-path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 17
+  network: ws
+  port: 2082
+  server: malaysia.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip3.6929198.xyz
+  ws-path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 18
+  network: ws
+  port: 2082
+  server: japan.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip3.6929198.xyz
+  ws-path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 19
+  network: ws
+  port: 2082
+  server: singapore.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip3.6929198.xyz
+  ws-path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 20
+  network: ws
+  port: 2082
+  server: japan.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip16.6929198.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 21
+  network: ws
+  port: 2082
+  server: 190.93.246.178
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 64
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 22
+  port: 58831
+  server: 120.232.153.27
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 23
+  network: ws
+  port: 2082
+  server: japan.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip3.6929198.xyz
+  ws-path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 24
+  network: ws
+  port: 2082
+  server: 190.93.247.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 25
+  network: ws
+  port: 2082
+  server: russia.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 26
   network: ws
   port: 2082
   server: ip.sb
@@ -601,51 +360,88 @@ proxies:
   ws-headers:
     Host: ip16.6929198.xyz
   ws-path: /github.com/Alvin9999
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 44
-  network: ws
-  port: 33202
-  server: yd2.ainivp.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-  ws-headers:
-    Host: yd2.ainivp.com
-  ws-path: /ray
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 45
-  network: ws
-  port: 2095
-  server: singapore.com
+  name: 美国(yudou66.com 玉豆免费节点) 27
+  port: 58831
+  server: 120.232.153.27
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-headers:
-    Host: ip2.6016725.xyz
-  ws-path: github.com/Alvin9999
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 28
+  port: 58831
+  server: 183.236.48.163
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 美国(yudou66.com 玉豆免费节点) 29
+  password: d4eeaa7b-43c6-49dc-8020-7389bba4d033
+  port: 40016
+  server: hzhz2.sssyun.xyz
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 46
+  name: 美国(yudou66.com 玉豆免费节点) 30
   network: ws
   port: 2082
-  server: singapore.com
+  server: 190.93.245.76
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-headers:
-    Host: ip12.6929198.xyz
-  ws-path: github.com/Alvin9999
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 47
+  name: 美国(yudou66.com 玉豆免费节点) 31
+  network: ws
+  port: 2082
+  server: 190.93.244.33
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 64
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 32
+  port: 56601
+  server: 183.236.51.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯(yudou66.com 玉豆免费节点)
+  network: ws
+  port: 33026
+  server: 89.169.55.152
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: e00f5c12-09e3-490c-b702-29155b6dcc50
+  ws-headers:
+    Host: socks5tobefree.ydns.eu
+  ws-path: /dangerzone
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 33
   network: ws
   port: 2082
   server: russia.com
@@ -659,10 +455,52 @@ proxies:
   ws-path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 48
+  name: 香港(yudou66.com 玉豆免费节点)
+  network: ws
+  port: 33416
+  server: yd2.ainivp.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
+  ws-headers:
+    Host: yd2.ainivp.com
+  ws-path: /ray
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯(yudou66.com 玉豆免费节点) 2
+  network: ws
+  port: 33026
+  server: 89.169.55.152
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: e00f5c12-09e3-490c-b702-29155b6dcc50
+  ws-headers:
+    Host: socks5tobefree.ydns.eu
+  ws-path: /dangerzone
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 34
+  network: ws
+  port: 443
+  server: 16.724064.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: b7cf4466-956a-4639-b861-0cf78cbb6f8f
+  ws-headers:
+    Host: 16.724064.xyz
+  ws-path: /zlppvws
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 35
   network: ws
   port: 2082
-  server: russia.com
+  server: 190.93.247.170
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -671,54 +509,46 @@ proxies:
   ws-headers:
     Host: ip18.6929198.xyz
   ws-path: /github.com/Alvin9999
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 49
-  network: ws
-  port: 2082
-  server: ip.sb
+  name: 美国(yudou66.com 玉豆免费节点) 36
+  port: 58831
+  server: 183.236.48.163
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-headers:
-    Host: ip3.6929198.xyz
-  ws-path: github.com/Alvin9999
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 50
+  name: 美国(yudou66.com 玉豆免费节点) 37
   network: ws
-  port: 2082
-  server: ip.sb
+  port: 33416
+  server: yd2.ainivp.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
+  ws-headers:
+    Host: yd2.ainivp.com
+  ws-path: /ray
+- alterId: 64
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 38
+  port: 46602
+  server: 183.236.51.23
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-headers:
-    Host: ip16.6929198.xyz
-  ws-path: /github.com/Alvin9999
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 51
-  network: ws
-  port: 2095
-  server: singapore.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-headers:
-    Host: ip20.6016725.xyz
-  ws-path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 52
+  name: 美国(yudou66.com 玉豆免费节点) 39
   network: ws
   port: 2082
-  server: japan.com
+  server: icook.tw
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -727,23 +557,19 @@ proxies:
   ws-headers:
     Host: ip16.6929198.xyz
   ws-path: /github.com/Alvin9999
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 53
-  network: ws
-  port: 2082
-  server: russia.com
+  name: 美国(yudou66.com 玉豆免费节点) 40
+  port: 52112
+  server: 183.236.51.23
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-headers:
-    Host: ip26.6929198.xyz
-  ws-path: github.com/Alvin9999
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 54
+  name: 美国(yudou66.com 玉豆免费节点) 41
   network: ws
   port: 80
   server: usnew.lbxjc.site
@@ -755,12 +581,292 @@ proxies:
   ws-headers:
     Host: chunchuan.kejixiaoqi666.store
   ws-path: /
+- alterId: 64
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 42
+  port: 59952
+  server: 183.236.48.158
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 美国(yudou66.com 玉豆免费节点) 43
+  password: vntxqHhPINXu5Ag6876fXO
+  port: 1080
+  server: 51.195.220.179
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 55
+  name: 美国(yudou66.com 玉豆免费节点) 44
+  network: ws
+  port: 2082
+  server: icook.tw
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip16.6929198.xyz
+  ws-path: /github.com/Alvin9999
+- cipher: aes-256-gcm
+  name: 美国(yudou66.com 玉豆免费节点) 45
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 69.50.95.53
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 46
+  network: ws
+  port: 80
+  server: speed.cloudflare.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  ws-headers:
+    Host: 7ehhjdelicate-unit-e634.bowik41429.workers.dev
+  ws-path: /glweidf.sbs/linkws
+- alterId: 64
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 47
+  port: 53002
+  server: 183.236.51.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 48
+  port: 55910
+  server: 2.189.85.234
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4f80820e-f433-447f-87c8-3ee6dfafe1b1
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 49
+  network: ws
+  port: 80
+  server: hsj.lbxjc.online
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-headers:
+    Host: chunchuan.kejixiaoqi666.store
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 50
+  network: ws
+  port: 2082
+  server: ip.sb
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip16.6929198.xyz
+  ws-path: /github.com/Alvin9999
+- cipher: aes-256-gcm
+  name: 美国(yudou66.com 玉豆免费节点) 51
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 69.50.95.53
+  type: ss
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 52
+  port: 52112
+  server: 183.236.51.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 德国(yudou66.com 玉豆免费节点)
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.157
+  type: ss
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 53
+  port: 52112
+  server: 183.236.51.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 美国(yudou66.com 玉豆免费节点) 54
+  password: f8f7aCzcPKbsF8p3
+  port: 990
+  server: 203.23.128.33
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国(yudou66.com 玉豆免费节点) 55
+  password: fHMmtjH3MuKYWYvGEqQpdH
+  port: 443
+  server: 62.210.88.22
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 德国(yudou66.com 玉豆免费节点) 2
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.157
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 美国(yudou66.com 玉豆免费节点) 56
+  password: FoOiGlkAA9yPEGP
+  port: 7306
+  server: 69.50.95.53
+  type: ss
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 57
+  port: 58831
+  server: 120.232.153.27
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 58
+  port: 58002
+  server: 120.232.153.27
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 德国(yudou66.com 玉豆免费节点) 3
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: beesyar.org
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 德国(yudou66.com 玉豆免费节点) 4
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: beesyar.org
+  type: ss
+  udp: true
+- name: 美国(yudou66.com 玉豆免费节点) 59
+  password: blue2024
+  port: 443
+  server: 168.100.6.112
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 60
   network: ws
   port: 2095
-  server: ip.sb
+  server: icook.tw
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-headers:
+    Host: ip15.6016725.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 61
+  network: ws
+  port: 2095
+  server: fbi.gov
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-headers:
+    Host: ip2.6016725.xyz
+  ws-path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 62
+  network: ws
+  port: 2082
+  server: 190.93.244.33
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
+- name: 美国(yudou66.com 玉豆免费节点) 63
+  password: blue2024
+  port: 443
+  server: 213.241.198.113
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 64
+  network: ws
+  port: 2082
+  server: 190.93.244.64
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 65
+  network: ws
+  port: 2082
+  server: 190.93.245.103
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 66
+  network: ws
+  port: 2095
+  server: fbi.gov
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -771,49 +877,189 @@ proxies:
   ws-path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 56
+  name: 美国(yudou66.com 玉豆免费节点) 67
+  network: ws
+  port: 2082
+  server: 190.93.246.196
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 加拿大(yudou66.com 玉豆免费节点) 3
+  network: ws
+  port: 2082
+  server: 190.93.245.174
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
+- name: 美国(yudou66.com 玉豆免费节点) 68
+  password: blue2024
+  port: 443
+  server: 92.60.74.217
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 69
+  network: ws
+  port: 2082
+  server: 190.93.245.168
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 加拿大(yudou66.com 玉豆免费节点) 4
+  network: ws
+  port: 2082
+  server: 190.93.246.178
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 70
+  network: ws
+  port: 2082
+  server: 190.93.245.76
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 加拿大(yudou66.com 玉豆免费节点) 5
+  network: ws
+  port: 2082
+  server: 190.93.246.120
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 71
+  network: ws
+  port: 2082
+  server: 190.93.245.168
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 72
+  network: ws
+  port: 2082
+  server: 190.93.247.127
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
+- cipher: chacha20-ietf-poly1305
+  name: 俄罗斯(yudou66.com 玉豆免费节点) 3
+  password: 6OAGLD+DOA6UcFp5Udf0r/UzyjwHV+yheNkoFDk6uL8=
+  port: 38753
+  server: 213.108.22.109
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 73
+  network: ws
+  port: 2082
+  server: 190.93.247.221
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 加拿大(yudou66.com 玉豆免费节点) 6
   network: ws
   port: 2095
-  server: russia.com
+  server: 172.64.175.88
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-headers:
-    Host: ip2.6016725.xyz
-  ws-path: github.com/Alvin9999
+    Host: c3.6016725.xyz
+  ws-path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 57
+  name: 美国(yudou66.com 玉豆免费节点) 74
+  network: ws
+  port: 2082
+  server: 190.93.247.170
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 75
   network: ws
   port: 2095
-  server: ip.sb
+  server: fbi.gov
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-headers:
-    Host: ip8.6016725.xyz
-  ws-path: github.com/Alvin9999
+    Host: ip20.6016725.xyz
+  ws-path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 58
-  network: ws
-  port: 2095
-  server: japan.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-headers:
-    Host: ip2.6016725.xyz
-  ws-path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 59
+  name: 美国(yudou66.com 玉豆免费节点) 76
   network: ws
   port: 2095
   server: malaysia.com
@@ -827,7 +1073,497 @@ proxies:
   ws-path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 60
+  name: 美国(yudou66.com 玉豆免费节点) 77
+  network: ws
+  port: 2082
+  server: 190.93.244.228
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 78
+  network: ws
+  port: 2082
+  server: 190.93.247.127
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 79
+  network: ws
+  port: 2082
+  server: 190.93.244.228
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 80
+  network: ws
+  port: 2095
+  server: ip.sb
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-headers:
+    Host: ip2.6016725.xyz
+  ws-path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 81
+  network: ws
+  port: 2082
+  server: 190.93.247.203
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 82
+  network: ws
+  port: 2095
+  server: japan.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-headers:
+    Host: ip2.6016725.xyz
+  ws-path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 83
+  network: ws
+  port: 2095
+  server: ip.sb
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-headers:
+    Host: ip20.6016725.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 84
+  network: ws
+  port: 2095
+  server: singapore.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-headers:
+    Host: ip2.6016725.xyz
+  ws-path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 加拿大(yudou66.com 玉豆免费节点) 7
+  network: ws
+  port: 2095
+  server: ip.sb
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-headers:
+    Host: ip20.6016725.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 85
+  network: ws
+  port: 2095
+  server: ip.sb
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-headers:
+    Host: ip8.6016725.xyz
+  ws-path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 86
+  network: ws
+  port: 2095
+  server: russia.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-headers:
+    Host: ip11.6016725.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 87
+  network: ws
+  port: 2095
+  server: russia.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-headers:
+    Host: ip2.6016725.xyz
+  ws-path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 加拿大(yudou66.com 玉豆免费节点) 8
+  network: ws
+  port: 2082
+  server: 190.93.247.221
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 88
+  network: ws
+  port: 2082
+  server: 190.93.245.174
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 89
+  network: ws
+  port: 2095
+  server: russia.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-headers:
+    Host: ip11.6016725.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 90
+  network: ws
+  port: 2082
+  server: icook.tw
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip3.6929198.xyz
+  ws-path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 91
+  network: ws
+  port: 2095
+  server: singapore.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-headers:
+    Host: ip11.6016725.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 92
+  network: ws
+  port: 2095
+  server: icook.tw
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-headers:
+    Host: ip2.6016725.xyz
+  ws-path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 93
+  network: ws
+  port: 2095
+  server: singapore.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-headers:
+    Host: ip2.6016725.xyz
+  ws-path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 94
+  network: ws
+  port: 2082
+  server: icook.tw
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip3.6929198.xyz
+  ws-path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 95
+  network: ws
+  port: 2082
+  server: fbi.gov
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip3.6929198.xyz
+  ws-path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 96
+  network: ws
+  port: 2082
+  server: 190.93.246.120
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 加拿大(yudou66.com 玉豆免费节点) 9
+  network: ws
+  port: 2082
+  server: 190.93.245.16
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip18.6929198.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 97
+  network: ws
+  port: 2095
+  server: malaysia.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-headers:
+    Host: ip2.6016725.xyz
+  ws-path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 98
+  network: ws
+  port: 2082
+  server: russia.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip26.6929198.xyz
+  ws-path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 99
+  network: ws
+  port: 443
+  server: 16.724064.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: b7cf4466-956a-4639-b861-0cf78cbb6f8f
+  ws-headers:
+    Host: 16.724064.xyz
+  ws-path: /zlppvws
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 100
+  network: ws
+  port: 2095
+  server: singapore.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-headers:
+    Host: ip11.6016725.xyz
+  ws-path: /github.com/Alvin9999
+- cipher: chacha20-ietf-poly1305
+  name: 德国(yudou66.com 玉豆免费节点) 5
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.157
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 101
+  network: ws
+  port: 2082
+  server: malaysia.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip3.6929198.xyz
+  ws-path: github.com/Alvin9999
+- name: 香港(yudou66.com 玉豆免费节点) 2
+  password: NISHIKUITAN111
+  port: 443
+  server: 104.26.3.213
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 102
+  network: ws
+  port: 2082
+  server: singapore.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip26.6929198.xyz
+  ws-path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 103
+  network: ws
+  port: 2082
+  server: singapore.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip26.6929198.xyz
+  ws-path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 104
+  network: ws
+  port: 2082
+  server: singapore.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip12.6929198.xyz
+  ws-path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 105
+  network: ws
+  port: 2095
+  server: singapore.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-headers:
+    Host: ip20.6016725.xyz
+  ws-path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 106
+  network: ws
+  port: 2082
+  server: russia.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-headers:
+    Host: ip26.6929198.xyz
+  ws-path: github.com/Alvin9999
+- cipher: chacha20-ietf-poly1305
+  name: 德国(yudou66.com 玉豆免费节点) 6
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: beesyar.org
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 俄罗斯(yudou66.com 玉豆免费节点) 4
+  password: 3MgIhqwp4pjM8SKwixNkYZ
+  port: 33068
+  server: 193.124.22.253
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou66.com 玉豆免费节点) 107
   network: ws
   port: 2082
   server: japan.com
@@ -841,265 +1577,322 @@ proxies:
   ws-path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 61
+  name: 美国(yudou66.com 玉豆免费节点) 108
   network: ws
   port: 2095
-  server: icook.tw
+  server: singapore.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-headers:
-    Host: ip2.6016725.xyz
-  ws-path: github.com/Alvin9999
+    Host: ip20.6016725.xyz
+  ws-path: /github.com/Alvin9999
+- cipher: chacha20-ietf-poly1305
+  name: 德国(yudou66.com 玉豆免费节点) 7
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: beesyar.org
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 62
+  name: 美国(yudou66.com 玉豆免费节点) 109
   network: ws
   port: 2082
-  server: icook.tw
+  server: russia.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-headers:
-    Host: ip16.6929198.xyz
-  ws-path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 63
-  network: ws
-  port: 2095
-  server: icook.tw
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-headers:
-    Host: ip2.6016725.xyz
+    Host: ip3.6929198.xyz
   ws-path: github.com/Alvin9999
 - alterId: 64
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 64
-  port: 58831
-  server: 120.232.153.27
+  name: 美国(yudou66.com 玉豆免费节点) 110
+  port: 40002
+  server: 183.236.48.163
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: DE德国(mibei77.com 米贝节点分享)
-  password: telegram-id-directvpn
-  port: 22222
-  server: 3.123.163.64
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 俄罗斯(mibei77.com 米贝节点分享)
-  network: ws
-  port: 33026
-  server: 89.169.55.152
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: e00f5c12-09e3-490c-b702-29155b6dcc50
-  ws-headers:
-    Host: socks5tobefree.ydns.eu
-  ws-path: /dangerzone
-- cipher: aes-256-gcm
-  name: US美国(mibei77.com 米贝节点分享) 65
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 54.37.12.70
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 66
-  network: ws
-  port: 80
-  server: speed.cloudflare.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-headers:
-    Host: 52aa-super-river-52aa.pobin49599.workers.dev
-  ws-path: /obdii.cfd/linkws
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 67
-  network: ws
-  port: 443
-  server: 16.724064.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: b7cf4466-956a-4639-b861-0cf78cbb6f8f
-  ws-headers:
-    Host: 16.724064.xyz
-  ws-path: /zlppvws
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - US美国(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 3
-  - US美国(mibei77.com 米贝节点分享) 4
-  - US美国(mibei77.com 米贝节点分享) 5
-  - US美国(mibei77.com 米贝节点分享) 6
-  - HK香港(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享) 7
-  - HK香港(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 8
-  - US美国(mibei77.com 米贝节点分享) 9
-  - US美国(mibei77.com 米贝节点分享) 10
-  - US美国(mibei77.com 米贝节点分享) 11
-  - US美国(mibei77.com 米贝节点分享) 12
-  - US美国(mibei77.com 米贝节点分享) 13
-  - US美国(mibei77.com 米贝节点分享) 14
-  - HK香港(mibei77.com 米贝节点分享) 3
-  - US美国(mibei77.com 米贝节点分享) 15
-  - US美国(mibei77.com 米贝节点分享) 16
-  - US美国(mibei77.com 米贝节点分享) 17
-  - US美国(mibei77.com 米贝节点分享) 18
-  - US美国(mibei77.com 米贝节点分享) 19
-  - US美国(mibei77.com 米贝节点分享) 20
-  - US美国(mibei77.com 米贝节点分享) 21
-  - US美国(mibei77.com 米贝节点分享) 22
-  - US美国(mibei77.com 米贝节点分享) 23
-  - US美国(mibei77.com 米贝节点分享) 24
-  - US美国(mibei77.com 米贝节点分享) 25
-  - US美国(mibei77.com 米贝节点分享) 26
-  - US美国(mibei77.com 米贝节点分享) 27
-  - US美国(mibei77.com 米贝节点分享) 28
-  - US美国(mibei77.com 米贝节点分享) 29
-  - US美国(mibei77.com 米贝节点分享) 30
-  - US美国(mibei77.com 米贝节点分享) 31
-  - US美国(mibei77.com 米贝节点分享) 32
-  - US美国(mibei77.com 米贝节点分享) 33
-  - US美国(mibei77.com 米贝节点分享) 34
-  - US美国(mibei77.com 米贝节点分享) 35
-  - US美国(mibei77.com 米贝节点分享) 36
-  - US美国(mibei77.com 米贝节点分享) 37
-  - US美国(mibei77.com 米贝节点分享) 38
-  - US美国(mibei77.com 米贝节点分享) 39
-  - US美国(mibei77.com 米贝节点分享) 40
-  - US美国(mibei77.com 米贝节点分享) 41
-  - US美国(mibei77.com 米贝节点分享) 42
-  - US美国(mibei77.com 米贝节点分享) 43
-  - US美国(mibei77.com 米贝节点分享) 44
-  - US美国(mibei77.com 米贝节点分享) 45
-  - US美国(mibei77.com 米贝节点分享) 46
-  - US美国(mibei77.com 米贝节点分享) 47
-  - US美国(mibei77.com 米贝节点分享) 48
-  - US美国(mibei77.com 米贝节点分享) 49
-  - US美国(mibei77.com 米贝节点分享) 50
-  - US美国(mibei77.com 米贝节点分享) 51
-  - US美国(mibei77.com 米贝节点分享) 52
-  - US美国(mibei77.com 米贝节点分享) 53
-  - US美国(mibei77.com 米贝节点分享) 54
-  - US美国(mibei77.com 米贝节点分享) 55
-  - US美国(mibei77.com 米贝节点分享) 56
-  - US美国(mibei77.com 米贝节点分享) 57
-  - US美国(mibei77.com 米贝节点分享) 58
-  - US美国(mibei77.com 米贝节点分享) 59
-  - US美国(mibei77.com 米贝节点分享) 60
-  - US美国(mibei77.com 米贝节点分享) 61
-  - US美国(mibei77.com 米贝节点分享) 62
-  - US美国(mibei77.com 米贝节点分享) 63
-  - US美国(mibei77.com 米贝节点分享) 64
-  - DE德国(mibei77.com 米贝节点分享)
-  - 俄罗斯(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享) 65
-  - US美国(mibei77.com 米贝节点分享) 66
-  - US美国(mibei77.com 米贝节点分享) 67
+  - 美国(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 3
+  - 美国(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 5
+  - 美国(yudou66.com 玉豆免费节点) 6
+  - 美国(yudou66.com 玉豆免费节点) 7
+  - 美国(yudou66.com 玉豆免费节点) 8
+  - 美国(yudou66.com 玉豆免费节点) 9
+  - 美国(yudou66.com 玉豆免费节点) 10
+  - 美国(yudou66.com 玉豆免费节点) 11
+  - 美国(yudou66.com 玉豆免费节点) 12
+  - 美国(yudou66.com 玉豆免费节点) 13
+  - 加拿大(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 14
+  - 美国(yudou66.com 玉豆免费节点) 15
+  - 加拿大(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 16
+  - 美国(yudou66.com 玉豆免费节点) 17
+  - 美国(yudou66.com 玉豆免费节点) 18
+  - 美国(yudou66.com 玉豆免费节点) 19
+  - 美国(yudou66.com 玉豆免费节点) 20
+  - 美国(yudou66.com 玉豆免费节点) 21
+  - 美国(yudou66.com 玉豆免费节点) 22
+  - 美国(yudou66.com 玉豆免费节点) 23
+  - 美国(yudou66.com 玉豆免费节点) 24
+  - 美国(yudou66.com 玉豆免费节点) 25
+  - 美国(yudou66.com 玉豆免费节点) 26
+  - 美国(yudou66.com 玉豆免费节点) 27
+  - 美国(yudou66.com 玉豆免费节点) 28
+  - 美国(yudou66.com 玉豆免费节点) 29
+  - 美国(yudou66.com 玉豆免费节点) 30
+  - 美国(yudou66.com 玉豆免费节点) 31
+  - 美国(yudou66.com 玉豆免费节点) 32
+  - 俄罗斯(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 33
+  - 香港(yudou66.com 玉豆免费节点)
+  - 俄罗斯(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 34
+  - 美国(yudou66.com 玉豆免费节点) 35
+  - 美国(yudou66.com 玉豆免费节点) 36
+  - 美国(yudou66.com 玉豆免费节点) 37
+  - 美国(yudou66.com 玉豆免费节点) 38
+  - 美国(yudou66.com 玉豆免费节点) 39
+  - 美国(yudou66.com 玉豆免费节点) 40
+  - 美国(yudou66.com 玉豆免费节点) 41
+  - 美国(yudou66.com 玉豆免费节点) 42
+  - 美国(yudou66.com 玉豆免费节点) 43
+  - 美国(yudou66.com 玉豆免费节点) 44
+  - 美国(yudou66.com 玉豆免费节点) 45
+  - 美国(yudou66.com 玉豆免费节点) 46
+  - 美国(yudou66.com 玉豆免费节点) 47
+  - 美国(yudou66.com 玉豆免费节点) 48
+  - 美国(yudou66.com 玉豆免费节点) 49
+  - 美国(yudou66.com 玉豆免费节点) 50
+  - 美国(yudou66.com 玉豆免费节点) 51
+  - 美国(yudou66.com 玉豆免费节点) 52
+  - 德国(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 53
+  - 美国(yudou66.com 玉豆免费节点) 54
+  - 美国(yudou66.com 玉豆免费节点) 55
+  - 德国(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 56
+  - 美国(yudou66.com 玉豆免费节点) 57
+  - 美国(yudou66.com 玉豆免费节点) 58
+  - 德国(yudou66.com 玉豆免费节点) 3
+  - 德国(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 59
+  - 美国(yudou66.com 玉豆免费节点) 60
+  - 美国(yudou66.com 玉豆免费节点) 61
+  - 美国(yudou66.com 玉豆免费节点) 62
+  - 美国(yudou66.com 玉豆免费节点) 63
+  - 美国(yudou66.com 玉豆免费节点) 64
+  - 美国(yudou66.com 玉豆免费节点) 65
+  - 美国(yudou66.com 玉豆免费节点) 66
+  - 美国(yudou66.com 玉豆免费节点) 67
+  - 加拿大(yudou66.com 玉豆免费节点) 3
+  - 美国(yudou66.com 玉豆免费节点) 68
+  - 美国(yudou66.com 玉豆免费节点) 69
+  - 加拿大(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 70
+  - 加拿大(yudou66.com 玉豆免费节点) 5
+  - 美国(yudou66.com 玉豆免费节点) 71
+  - 美国(yudou66.com 玉豆免费节点) 72
+  - 俄罗斯(yudou66.com 玉豆免费节点) 3
+  - 美国(yudou66.com 玉豆免费节点) 73
+  - 加拿大(yudou66.com 玉豆免费节点) 6
+  - 美国(yudou66.com 玉豆免费节点) 74
+  - 美国(yudou66.com 玉豆免费节点) 75
+  - 美国(yudou66.com 玉豆免费节点) 76
+  - 美国(yudou66.com 玉豆免费节点) 77
+  - 美国(yudou66.com 玉豆免费节点) 78
+  - 美国(yudou66.com 玉豆免费节点) 79
+  - 美国(yudou66.com 玉豆免费节点) 80
+  - 美国(yudou66.com 玉豆免费节点) 81
+  - 美国(yudou66.com 玉豆免费节点) 82
+  - 美国(yudou66.com 玉豆免费节点) 83
+  - 美国(yudou66.com 玉豆免费节点) 84
+  - 加拿大(yudou66.com 玉豆免费节点) 7
+  - 美国(yudou66.com 玉豆免费节点) 85
+  - 美国(yudou66.com 玉豆免费节点) 86
+  - 美国(yudou66.com 玉豆免费节点) 87
+  - 加拿大(yudou66.com 玉豆免费节点) 8
+  - 美国(yudou66.com 玉豆免费节点) 88
+  - 美国(yudou66.com 玉豆免费节点) 89
+  - 美国(yudou66.com 玉豆免费节点) 90
+  - 美国(yudou66.com 玉豆免费节点) 91
+  - 美国(yudou66.com 玉豆免费节点) 92
+  - 美国(yudou66.com 玉豆免费节点) 93
+  - 美国(yudou66.com 玉豆免费节点) 94
+  - 美国(yudou66.com 玉豆免费节点) 95
+  - 美国(yudou66.com 玉豆免费节点) 96
+  - 加拿大(yudou66.com 玉豆免费节点) 9
+  - 美国(yudou66.com 玉豆免费节点) 97
+  - 美国(yudou66.com 玉豆免费节点) 98
+  - 美国(yudou66.com 玉豆免费节点) 99
+  - 美国(yudou66.com 玉豆免费节点) 100
+  - 德国(yudou66.com 玉豆免费节点) 5
+  - 美国(yudou66.com 玉豆免费节点) 101
+  - 香港(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 102
+  - 美国(yudou66.com 玉豆免费节点) 103
+  - 美国(yudou66.com 玉豆免费节点) 104
+  - 美国(yudou66.com 玉豆免费节点) 105
+  - 美国(yudou66.com 玉豆免费节点) 106
+  - 德国(yudou66.com 玉豆免费节点) 6
+  - 俄罗斯(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 107
+  - 美国(yudou66.com 玉豆免费节点) 108
+  - 德国(yudou66.com 玉豆免费节点) 7
+  - 美国(yudou66.com 玉豆免费节点) 109
+  - 美国(yudou66.com 玉豆免费节点) 110
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - US美国(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 3
-  - US美国(mibei77.com 米贝节点分享) 4
-  - US美国(mibei77.com 米贝节点分享) 5
-  - US美国(mibei77.com 米贝节点分享) 6
-  - HK香港(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享) 7
-  - HK香港(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 8
-  - US美国(mibei77.com 米贝节点分享) 9
-  - US美国(mibei77.com 米贝节点分享) 10
-  - US美国(mibei77.com 米贝节点分享) 11
-  - US美国(mibei77.com 米贝节点分享) 12
-  - US美国(mibei77.com 米贝节点分享) 13
-  - US美国(mibei77.com 米贝节点分享) 14
-  - HK香港(mibei77.com 米贝节点分享) 3
-  - US美国(mibei77.com 米贝节点分享) 15
-  - US美国(mibei77.com 米贝节点分享) 16
-  - US美国(mibei77.com 米贝节点分享) 17
-  - US美国(mibei77.com 米贝节点分享) 18
-  - US美国(mibei77.com 米贝节点分享) 19
-  - US美国(mibei77.com 米贝节点分享) 20
-  - US美国(mibei77.com 米贝节点分享) 21
-  - US美国(mibei77.com 米贝节点分享) 22
-  - US美国(mibei77.com 米贝节点分享) 23
-  - US美国(mibei77.com 米贝节点分享) 24
-  - US美国(mibei77.com 米贝节点分享) 25
-  - US美国(mibei77.com 米贝节点分享) 26
-  - US美国(mibei77.com 米贝节点分享) 27
-  - US美国(mibei77.com 米贝节点分享) 28
-  - US美国(mibei77.com 米贝节点分享) 29
-  - US美国(mibei77.com 米贝节点分享) 30
-  - US美国(mibei77.com 米贝节点分享) 31
-  - US美国(mibei77.com 米贝节点分享) 32
-  - US美国(mibei77.com 米贝节点分享) 33
-  - US美国(mibei77.com 米贝节点分享) 34
-  - US美国(mibei77.com 米贝节点分享) 35
-  - US美国(mibei77.com 米贝节点分享) 36
-  - US美国(mibei77.com 米贝节点分享) 37
-  - US美国(mibei77.com 米贝节点分享) 38
-  - US美国(mibei77.com 米贝节点分享) 39
-  - US美国(mibei77.com 米贝节点分享) 40
-  - US美国(mibei77.com 米贝节点分享) 41
-  - US美国(mibei77.com 米贝节点分享) 42
-  - US美国(mibei77.com 米贝节点分享) 43
-  - US美国(mibei77.com 米贝节点分享) 44
-  - US美国(mibei77.com 米贝节点分享) 45
-  - US美国(mibei77.com 米贝节点分享) 46
-  - US美国(mibei77.com 米贝节点分享) 47
-  - US美国(mibei77.com 米贝节点分享) 48
-  - US美国(mibei77.com 米贝节点分享) 49
-  - US美国(mibei77.com 米贝节点分享) 50
-  - US美国(mibei77.com 米贝节点分享) 51
-  - US美国(mibei77.com 米贝节点分享) 52
-  - US美国(mibei77.com 米贝节点分享) 53
-  - US美国(mibei77.com 米贝节点分享) 54
-  - US美国(mibei77.com 米贝节点分享) 55
-  - US美国(mibei77.com 米贝节点分享) 56
-  - US美国(mibei77.com 米贝节点分享) 57
-  - US美国(mibei77.com 米贝节点分享) 58
-  - US美国(mibei77.com 米贝节点分享) 59
-  - US美国(mibei77.com 米贝节点分享) 60
-  - US美国(mibei77.com 米贝节点分享) 61
-  - US美国(mibei77.com 米贝节点分享) 62
-  - US美国(mibei77.com 米贝节点分享) 63
-  - US美国(mibei77.com 米贝节点分享) 64
-  - DE德国(mibei77.com 米贝节点分享)
-  - 俄罗斯(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享) 65
-  - US美国(mibei77.com 米贝节点分享) 66
-  - US美国(mibei77.com 米贝节点分享) 67
+  - 美国(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 3
+  - 美国(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 5
+  - 美国(yudou66.com 玉豆免费节点) 6
+  - 美国(yudou66.com 玉豆免费节点) 7
+  - 美国(yudou66.com 玉豆免费节点) 8
+  - 美国(yudou66.com 玉豆免费节点) 9
+  - 美国(yudou66.com 玉豆免费节点) 10
+  - 美国(yudou66.com 玉豆免费节点) 11
+  - 美国(yudou66.com 玉豆免费节点) 12
+  - 美国(yudou66.com 玉豆免费节点) 13
+  - 加拿大(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 14
+  - 美国(yudou66.com 玉豆免费节点) 15
+  - 加拿大(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 16
+  - 美国(yudou66.com 玉豆免费节点) 17
+  - 美国(yudou66.com 玉豆免费节点) 18
+  - 美国(yudou66.com 玉豆免费节点) 19
+  - 美国(yudou66.com 玉豆免费节点) 20
+  - 美国(yudou66.com 玉豆免费节点) 21
+  - 美国(yudou66.com 玉豆免费节点) 22
+  - 美国(yudou66.com 玉豆免费节点) 23
+  - 美国(yudou66.com 玉豆免费节点) 24
+  - 美国(yudou66.com 玉豆免费节点) 25
+  - 美国(yudou66.com 玉豆免费节点) 26
+  - 美国(yudou66.com 玉豆免费节点) 27
+  - 美国(yudou66.com 玉豆免费节点) 28
+  - 美国(yudou66.com 玉豆免费节点) 29
+  - 美国(yudou66.com 玉豆免费节点) 30
+  - 美国(yudou66.com 玉豆免费节点) 31
+  - 美国(yudou66.com 玉豆免费节点) 32
+  - 俄罗斯(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 33
+  - 香港(yudou66.com 玉豆免费节点)
+  - 俄罗斯(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 34
+  - 美国(yudou66.com 玉豆免费节点) 35
+  - 美国(yudou66.com 玉豆免费节点) 36
+  - 美国(yudou66.com 玉豆免费节点) 37
+  - 美国(yudou66.com 玉豆免费节点) 38
+  - 美国(yudou66.com 玉豆免费节点) 39
+  - 美国(yudou66.com 玉豆免费节点) 40
+  - 美国(yudou66.com 玉豆免费节点) 41
+  - 美国(yudou66.com 玉豆免费节点) 42
+  - 美国(yudou66.com 玉豆免费节点) 43
+  - 美国(yudou66.com 玉豆免费节点) 44
+  - 美国(yudou66.com 玉豆免费节点) 45
+  - 美国(yudou66.com 玉豆免费节点) 46
+  - 美国(yudou66.com 玉豆免费节点) 47
+  - 美国(yudou66.com 玉豆免费节点) 48
+  - 美国(yudou66.com 玉豆免费节点) 49
+  - 美国(yudou66.com 玉豆免费节点) 50
+  - 美国(yudou66.com 玉豆免费节点) 51
+  - 美国(yudou66.com 玉豆免费节点) 52
+  - 德国(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 53
+  - 美国(yudou66.com 玉豆免费节点) 54
+  - 美国(yudou66.com 玉豆免费节点) 55
+  - 德国(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 56
+  - 美国(yudou66.com 玉豆免费节点) 57
+  - 美国(yudou66.com 玉豆免费节点) 58
+  - 德国(yudou66.com 玉豆免费节点) 3
+  - 德国(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 59
+  - 美国(yudou66.com 玉豆免费节点) 60
+  - 美国(yudou66.com 玉豆免费节点) 61
+  - 美国(yudou66.com 玉豆免费节点) 62
+  - 美国(yudou66.com 玉豆免费节点) 63
+  - 美国(yudou66.com 玉豆免费节点) 64
+  - 美国(yudou66.com 玉豆免费节点) 65
+  - 美国(yudou66.com 玉豆免费节点) 66
+  - 美国(yudou66.com 玉豆免费节点) 67
+  - 加拿大(yudou66.com 玉豆免费节点) 3
+  - 美国(yudou66.com 玉豆免费节点) 68
+  - 美国(yudou66.com 玉豆免费节点) 69
+  - 加拿大(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 70
+  - 加拿大(yudou66.com 玉豆免费节点) 5
+  - 美国(yudou66.com 玉豆免费节点) 71
+  - 美国(yudou66.com 玉豆免费节点) 72
+  - 俄罗斯(yudou66.com 玉豆免费节点) 3
+  - 美国(yudou66.com 玉豆免费节点) 73
+  - 加拿大(yudou66.com 玉豆免费节点) 6
+  - 美国(yudou66.com 玉豆免费节点) 74
+  - 美国(yudou66.com 玉豆免费节点) 75
+  - 美国(yudou66.com 玉豆免费节点) 76
+  - 美国(yudou66.com 玉豆免费节点) 77
+  - 美国(yudou66.com 玉豆免费节点) 78
+  - 美国(yudou66.com 玉豆免费节点) 79
+  - 美国(yudou66.com 玉豆免费节点) 80
+  - 美国(yudou66.com 玉豆免费节点) 81
+  - 美国(yudou66.com 玉豆免费节点) 82
+  - 美国(yudou66.com 玉豆免费节点) 83
+  - 美国(yudou66.com 玉豆免费节点) 84
+  - 加拿大(yudou66.com 玉豆免费节点) 7
+  - 美国(yudou66.com 玉豆免费节点) 85
+  - 美国(yudou66.com 玉豆免费节点) 86
+  - 美国(yudou66.com 玉豆免费节点) 87
+  - 加拿大(yudou66.com 玉豆免费节点) 8
+  - 美国(yudou66.com 玉豆免费节点) 88
+  - 美国(yudou66.com 玉豆免费节点) 89
+  - 美国(yudou66.com 玉豆免费节点) 90
+  - 美国(yudou66.com 玉豆免费节点) 91
+  - 美国(yudou66.com 玉豆免费节点) 92
+  - 美国(yudou66.com 玉豆免费节点) 93
+  - 美国(yudou66.com 玉豆免费节点) 94
+  - 美国(yudou66.com 玉豆免费节点) 95
+  - 美国(yudou66.com 玉豆免费节点) 96
+  - 加拿大(yudou66.com 玉豆免费节点) 9
+  - 美国(yudou66.com 玉豆免费节点) 97
+  - 美国(yudou66.com 玉豆免费节点) 98
+  - 美国(yudou66.com 玉豆免费节点) 99
+  - 美国(yudou66.com 玉豆免费节点) 100
+  - 德国(yudou66.com 玉豆免费节点) 5
+  - 美国(yudou66.com 玉豆免费节点) 101
+  - 香港(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 102
+  - 美国(yudou66.com 玉豆免费节点) 103
+  - 美国(yudou66.com 玉豆免费节点) 104
+  - 美国(yudou66.com 玉豆免费节点) 105
+  - 美国(yudou66.com 玉豆免费节点) 106
+  - 德国(yudou66.com 玉豆免费节点) 6
+  - 俄罗斯(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 107
+  - 美国(yudou66.com 玉豆免费节点) 108
+  - 德国(yudou66.com 玉豆免费节点) 7
+  - 美国(yudou66.com 玉豆免费节点) 109
+  - 美国(yudou66.com 玉豆免费节点) 110
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🎥 NETFLIX
@@ -1107,78 +1900,138 @@ proxy-groups:
   - 🔰 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - US美国(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 3
-  - US美国(mibei77.com 米贝节点分享) 4
-  - US美国(mibei77.com 米贝节点分享) 5
-  - US美国(mibei77.com 米贝节点分享) 6
-  - HK香港(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享) 7
-  - HK香港(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 8
-  - US美国(mibei77.com 米贝节点分享) 9
-  - US美国(mibei77.com 米贝节点分享) 10
-  - US美国(mibei77.com 米贝节点分享) 11
-  - US美国(mibei77.com 米贝节点分享) 12
-  - US美国(mibei77.com 米贝节点分享) 13
-  - US美国(mibei77.com 米贝节点分享) 14
-  - HK香港(mibei77.com 米贝节点分享) 3
-  - US美国(mibei77.com 米贝节点分享) 15
-  - US美国(mibei77.com 米贝节点分享) 16
-  - US美国(mibei77.com 米贝节点分享) 17
-  - US美国(mibei77.com 米贝节点分享) 18
-  - US美国(mibei77.com 米贝节点分享) 19
-  - US美国(mibei77.com 米贝节点分享) 20
-  - US美国(mibei77.com 米贝节点分享) 21
-  - US美国(mibei77.com 米贝节点分享) 22
-  - US美国(mibei77.com 米贝节点分享) 23
-  - US美国(mibei77.com 米贝节点分享) 24
-  - US美国(mibei77.com 米贝节点分享) 25
-  - US美国(mibei77.com 米贝节点分享) 26
-  - US美国(mibei77.com 米贝节点分享) 27
-  - US美国(mibei77.com 米贝节点分享) 28
-  - US美国(mibei77.com 米贝节点分享) 29
-  - US美国(mibei77.com 米贝节点分享) 30
-  - US美国(mibei77.com 米贝节点分享) 31
-  - US美国(mibei77.com 米贝节点分享) 32
-  - US美国(mibei77.com 米贝节点分享) 33
-  - US美国(mibei77.com 米贝节点分享) 34
-  - US美国(mibei77.com 米贝节点分享) 35
-  - US美国(mibei77.com 米贝节点分享) 36
-  - US美国(mibei77.com 米贝节点分享) 37
-  - US美国(mibei77.com 米贝节点分享) 38
-  - US美国(mibei77.com 米贝节点分享) 39
-  - US美国(mibei77.com 米贝节点分享) 40
-  - US美国(mibei77.com 米贝节点分享) 41
-  - US美国(mibei77.com 米贝节点分享) 42
-  - US美国(mibei77.com 米贝节点分享) 43
-  - US美国(mibei77.com 米贝节点分享) 44
-  - US美国(mibei77.com 米贝节点分享) 45
-  - US美国(mibei77.com 米贝节点分享) 46
-  - US美国(mibei77.com 米贝节点分享) 47
-  - US美国(mibei77.com 米贝节点分享) 48
-  - US美国(mibei77.com 米贝节点分享) 49
-  - US美国(mibei77.com 米贝节点分享) 50
-  - US美国(mibei77.com 米贝节点分享) 51
-  - US美国(mibei77.com 米贝节点分享) 52
-  - US美国(mibei77.com 米贝节点分享) 53
-  - US美国(mibei77.com 米贝节点分享) 54
-  - US美国(mibei77.com 米贝节点分享) 55
-  - US美国(mibei77.com 米贝节点分享) 56
-  - US美国(mibei77.com 米贝节点分享) 57
-  - US美国(mibei77.com 米贝节点分享) 58
-  - US美国(mibei77.com 米贝节点分享) 59
-  - US美国(mibei77.com 米贝节点分享) 60
-  - US美国(mibei77.com 米贝节点分享) 61
-  - US美国(mibei77.com 米贝节点分享) 62
-  - US美国(mibei77.com 米贝节点分享) 63
-  - US美国(mibei77.com 米贝节点分享) 64
-  - DE德国(mibei77.com 米贝节点分享)
-  - 俄罗斯(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享) 65
-  - US美国(mibei77.com 米贝节点分享) 66
-  - US美国(mibei77.com 米贝节点分享) 67
+  - 美国(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 3
+  - 美国(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 5
+  - 美国(yudou66.com 玉豆免费节点) 6
+  - 美国(yudou66.com 玉豆免费节点) 7
+  - 美国(yudou66.com 玉豆免费节点) 8
+  - 美国(yudou66.com 玉豆免费节点) 9
+  - 美国(yudou66.com 玉豆免费节点) 10
+  - 美国(yudou66.com 玉豆免费节点) 11
+  - 美国(yudou66.com 玉豆免费节点) 12
+  - 美国(yudou66.com 玉豆免费节点) 13
+  - 加拿大(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 14
+  - 美国(yudou66.com 玉豆免费节点) 15
+  - 加拿大(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 16
+  - 美国(yudou66.com 玉豆免费节点) 17
+  - 美国(yudou66.com 玉豆免费节点) 18
+  - 美国(yudou66.com 玉豆免费节点) 19
+  - 美国(yudou66.com 玉豆免费节点) 20
+  - 美国(yudou66.com 玉豆免费节点) 21
+  - 美国(yudou66.com 玉豆免费节点) 22
+  - 美国(yudou66.com 玉豆免费节点) 23
+  - 美国(yudou66.com 玉豆免费节点) 24
+  - 美国(yudou66.com 玉豆免费节点) 25
+  - 美国(yudou66.com 玉豆免费节点) 26
+  - 美国(yudou66.com 玉豆免费节点) 27
+  - 美国(yudou66.com 玉豆免费节点) 28
+  - 美国(yudou66.com 玉豆免费节点) 29
+  - 美国(yudou66.com 玉豆免费节点) 30
+  - 美国(yudou66.com 玉豆免费节点) 31
+  - 美国(yudou66.com 玉豆免费节点) 32
+  - 俄罗斯(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 33
+  - 香港(yudou66.com 玉豆免费节点)
+  - 俄罗斯(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 34
+  - 美国(yudou66.com 玉豆免费节点) 35
+  - 美国(yudou66.com 玉豆免费节点) 36
+  - 美国(yudou66.com 玉豆免费节点) 37
+  - 美国(yudou66.com 玉豆免费节点) 38
+  - 美国(yudou66.com 玉豆免费节点) 39
+  - 美国(yudou66.com 玉豆免费节点) 40
+  - 美国(yudou66.com 玉豆免费节点) 41
+  - 美国(yudou66.com 玉豆免费节点) 42
+  - 美国(yudou66.com 玉豆免费节点) 43
+  - 美国(yudou66.com 玉豆免费节点) 44
+  - 美国(yudou66.com 玉豆免费节点) 45
+  - 美国(yudou66.com 玉豆免费节点) 46
+  - 美国(yudou66.com 玉豆免费节点) 47
+  - 美国(yudou66.com 玉豆免费节点) 48
+  - 美国(yudou66.com 玉豆免费节点) 49
+  - 美国(yudou66.com 玉豆免费节点) 50
+  - 美国(yudou66.com 玉豆免费节点) 51
+  - 美国(yudou66.com 玉豆免费节点) 52
+  - 德国(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 53
+  - 美国(yudou66.com 玉豆免费节点) 54
+  - 美国(yudou66.com 玉豆免费节点) 55
+  - 德国(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 56
+  - 美国(yudou66.com 玉豆免费节点) 57
+  - 美国(yudou66.com 玉豆免费节点) 58
+  - 德国(yudou66.com 玉豆免费节点) 3
+  - 德国(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 59
+  - 美国(yudou66.com 玉豆免费节点) 60
+  - 美国(yudou66.com 玉豆免费节点) 61
+  - 美国(yudou66.com 玉豆免费节点) 62
+  - 美国(yudou66.com 玉豆免费节点) 63
+  - 美国(yudou66.com 玉豆免费节点) 64
+  - 美国(yudou66.com 玉豆免费节点) 65
+  - 美国(yudou66.com 玉豆免费节点) 66
+  - 美国(yudou66.com 玉豆免费节点) 67
+  - 加拿大(yudou66.com 玉豆免费节点) 3
+  - 美国(yudou66.com 玉豆免费节点) 68
+  - 美国(yudou66.com 玉豆免费节点) 69
+  - 加拿大(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 70
+  - 加拿大(yudou66.com 玉豆免费节点) 5
+  - 美国(yudou66.com 玉豆免费节点) 71
+  - 美国(yudou66.com 玉豆免费节点) 72
+  - 俄罗斯(yudou66.com 玉豆免费节点) 3
+  - 美国(yudou66.com 玉豆免费节点) 73
+  - 加拿大(yudou66.com 玉豆免费节点) 6
+  - 美国(yudou66.com 玉豆免费节点) 74
+  - 美国(yudou66.com 玉豆免费节点) 75
+  - 美国(yudou66.com 玉豆免费节点) 76
+  - 美国(yudou66.com 玉豆免费节点) 77
+  - 美国(yudou66.com 玉豆免费节点) 78
+  - 美国(yudou66.com 玉豆免费节点) 79
+  - 美国(yudou66.com 玉豆免费节点) 80
+  - 美国(yudou66.com 玉豆免费节点) 81
+  - 美国(yudou66.com 玉豆免费节点) 82
+  - 美国(yudou66.com 玉豆免费节点) 83
+  - 美国(yudou66.com 玉豆免费节点) 84
+  - 加拿大(yudou66.com 玉豆免费节点) 7
+  - 美国(yudou66.com 玉豆免费节点) 85
+  - 美国(yudou66.com 玉豆免费节点) 86
+  - 美国(yudou66.com 玉豆免费节点) 87
+  - 加拿大(yudou66.com 玉豆免费节点) 8
+  - 美国(yudou66.com 玉豆免费节点) 88
+  - 美国(yudou66.com 玉豆免费节点) 89
+  - 美国(yudou66.com 玉豆免费节点) 90
+  - 美国(yudou66.com 玉豆免费节点) 91
+  - 美国(yudou66.com 玉豆免费节点) 92
+  - 美国(yudou66.com 玉豆免费节点) 93
+  - 美国(yudou66.com 玉豆免费节点) 94
+  - 美国(yudou66.com 玉豆免费节点) 95
+  - 美国(yudou66.com 玉豆免费节点) 96
+  - 加拿大(yudou66.com 玉豆免费节点) 9
+  - 美国(yudou66.com 玉豆免费节点) 97
+  - 美国(yudou66.com 玉豆免费节点) 98
+  - 美国(yudou66.com 玉豆免费节点) 99
+  - 美国(yudou66.com 玉豆免费节点) 100
+  - 德国(yudou66.com 玉豆免费节点) 5
+  - 美国(yudou66.com 玉豆免费节点) 101
+  - 香港(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 102
+  - 美国(yudou66.com 玉豆免费节点) 103
+  - 美国(yudou66.com 玉豆免费节点) 104
+  - 美国(yudou66.com 玉豆免费节点) 105
+  - 美国(yudou66.com 玉豆免费节点) 106
+  - 德国(yudou66.com 玉豆免费节点) 6
+  - 俄罗斯(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 107
+  - 美国(yudou66.com 玉豆免费节点) 108
+  - 德国(yudou66.com 玉豆免费节点) 7
+  - 美国(yudou66.com 玉豆免费节点) 109
+  - 美国(yudou66.com 玉豆免费节点) 110
   type: select
 - name: ⛔️ 广告拦截
   proxies:
@@ -1197,318 +2050,557 @@ proxy-groups:
   - 🔰 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - US美国(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 3
-  - US美国(mibei77.com 米贝节点分享) 4
-  - US美国(mibei77.com 米贝节点分享) 5
-  - US美国(mibei77.com 米贝节点分享) 6
-  - HK香港(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享) 7
-  - HK香港(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 8
-  - US美国(mibei77.com 米贝节点分享) 9
-  - US美国(mibei77.com 米贝节点分享) 10
-  - US美国(mibei77.com 米贝节点分享) 11
-  - US美国(mibei77.com 米贝节点分享) 12
-  - US美国(mibei77.com 米贝节点分享) 13
-  - US美国(mibei77.com 米贝节点分享) 14
-  - HK香港(mibei77.com 米贝节点分享) 3
-  - US美国(mibei77.com 米贝节点分享) 15
-  - US美国(mibei77.com 米贝节点分享) 16
-  - US美国(mibei77.com 米贝节点分享) 17
-  - US美国(mibei77.com 米贝节点分享) 18
-  - US美国(mibei77.com 米贝节点分享) 19
-  - US美国(mibei77.com 米贝节点分享) 20
-  - US美国(mibei77.com 米贝节点分享) 21
-  - US美国(mibei77.com 米贝节点分享) 22
-  - US美国(mibei77.com 米贝节点分享) 23
-  - US美国(mibei77.com 米贝节点分享) 24
-  - US美国(mibei77.com 米贝节点分享) 25
-  - US美国(mibei77.com 米贝节点分享) 26
-  - US美国(mibei77.com 米贝节点分享) 27
-  - US美国(mibei77.com 米贝节点分享) 28
-  - US美国(mibei77.com 米贝节点分享) 29
-  - US美国(mibei77.com 米贝节点分享) 30
-  - US美国(mibei77.com 米贝节点分享) 31
-  - US美国(mibei77.com 米贝节点分享) 32
-  - US美国(mibei77.com 米贝节点分享) 33
-  - US美国(mibei77.com 米贝节点分享) 34
-  - US美国(mibei77.com 米贝节点分享) 35
-  - US美国(mibei77.com 米贝节点分享) 36
-  - US美国(mibei77.com 米贝节点分享) 37
-  - US美国(mibei77.com 米贝节点分享) 38
-  - US美国(mibei77.com 米贝节点分享) 39
-  - US美国(mibei77.com 米贝节点分享) 40
-  - US美国(mibei77.com 米贝节点分享) 41
-  - US美国(mibei77.com 米贝节点分享) 42
-  - US美国(mibei77.com 米贝节点分享) 43
-  - US美国(mibei77.com 米贝节点分享) 44
-  - US美国(mibei77.com 米贝节点分享) 45
-  - US美国(mibei77.com 米贝节点分享) 46
-  - US美国(mibei77.com 米贝节点分享) 47
-  - US美国(mibei77.com 米贝节点分享) 48
-  - US美国(mibei77.com 米贝节点分享) 49
-  - US美国(mibei77.com 米贝节点分享) 50
-  - US美国(mibei77.com 米贝节点分享) 51
-  - US美国(mibei77.com 米贝节点分享) 52
-  - US美国(mibei77.com 米贝节点分享) 53
-  - US美国(mibei77.com 米贝节点分享) 54
-  - US美国(mibei77.com 米贝节点分享) 55
-  - US美国(mibei77.com 米贝节点分享) 56
-  - US美国(mibei77.com 米贝节点分享) 57
-  - US美国(mibei77.com 米贝节点分享) 58
-  - US美国(mibei77.com 米贝节点分享) 59
-  - US美国(mibei77.com 米贝节点分享) 60
-  - US美国(mibei77.com 米贝节点分享) 61
-  - US美国(mibei77.com 米贝节点分享) 62
-  - US美国(mibei77.com 米贝节点分享) 63
-  - US美国(mibei77.com 米贝节点分享) 64
-  - DE德国(mibei77.com 米贝节点分享)
-  - 俄罗斯(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享) 65
-  - US美国(mibei77.com 米贝节点分享) 66
-  - US美国(mibei77.com 米贝节点分享) 67
+  - 美国(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 3
+  - 美国(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 5
+  - 美国(yudou66.com 玉豆免费节点) 6
+  - 美国(yudou66.com 玉豆免费节点) 7
+  - 美国(yudou66.com 玉豆免费节点) 8
+  - 美国(yudou66.com 玉豆免费节点) 9
+  - 美国(yudou66.com 玉豆免费节点) 10
+  - 美国(yudou66.com 玉豆免费节点) 11
+  - 美国(yudou66.com 玉豆免费节点) 12
+  - 美国(yudou66.com 玉豆免费节点) 13
+  - 加拿大(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 14
+  - 美国(yudou66.com 玉豆免费节点) 15
+  - 加拿大(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 16
+  - 美国(yudou66.com 玉豆免费节点) 17
+  - 美国(yudou66.com 玉豆免费节点) 18
+  - 美国(yudou66.com 玉豆免费节点) 19
+  - 美国(yudou66.com 玉豆免费节点) 20
+  - 美国(yudou66.com 玉豆免费节点) 21
+  - 美国(yudou66.com 玉豆免费节点) 22
+  - 美国(yudou66.com 玉豆免费节点) 23
+  - 美国(yudou66.com 玉豆免费节点) 24
+  - 美国(yudou66.com 玉豆免费节点) 25
+  - 美国(yudou66.com 玉豆免费节点) 26
+  - 美国(yudou66.com 玉豆免费节点) 27
+  - 美国(yudou66.com 玉豆免费节点) 28
+  - 美国(yudou66.com 玉豆免费节点) 29
+  - 美国(yudou66.com 玉豆免费节点) 30
+  - 美国(yudou66.com 玉豆免费节点) 31
+  - 美国(yudou66.com 玉豆免费节点) 32
+  - 俄罗斯(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 33
+  - 香港(yudou66.com 玉豆免费节点)
+  - 俄罗斯(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 34
+  - 美国(yudou66.com 玉豆免费节点) 35
+  - 美国(yudou66.com 玉豆免费节点) 36
+  - 美国(yudou66.com 玉豆免费节点) 37
+  - 美国(yudou66.com 玉豆免费节点) 38
+  - 美国(yudou66.com 玉豆免费节点) 39
+  - 美国(yudou66.com 玉豆免费节点) 40
+  - 美国(yudou66.com 玉豆免费节点) 41
+  - 美国(yudou66.com 玉豆免费节点) 42
+  - 美国(yudou66.com 玉豆免费节点) 43
+  - 美国(yudou66.com 玉豆免费节点) 44
+  - 美国(yudou66.com 玉豆免费节点) 45
+  - 美国(yudou66.com 玉豆免费节点) 46
+  - 美国(yudou66.com 玉豆免费节点) 47
+  - 美国(yudou66.com 玉豆免费节点) 48
+  - 美国(yudou66.com 玉豆免费节点) 49
+  - 美国(yudou66.com 玉豆免费节点) 50
+  - 美国(yudou66.com 玉豆免费节点) 51
+  - 美国(yudou66.com 玉豆免费节点) 52
+  - 德国(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 53
+  - 美国(yudou66.com 玉豆免费节点) 54
+  - 美国(yudou66.com 玉豆免费节点) 55
+  - 德国(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 56
+  - 美国(yudou66.com 玉豆免费节点) 57
+  - 美国(yudou66.com 玉豆免费节点) 58
+  - 德国(yudou66.com 玉豆免费节点) 3
+  - 德国(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 59
+  - 美国(yudou66.com 玉豆免费节点) 60
+  - 美国(yudou66.com 玉豆免费节点) 61
+  - 美国(yudou66.com 玉豆免费节点) 62
+  - 美国(yudou66.com 玉豆免费节点) 63
+  - 美国(yudou66.com 玉豆免费节点) 64
+  - 美国(yudou66.com 玉豆免费节点) 65
+  - 美国(yudou66.com 玉豆免费节点) 66
+  - 美国(yudou66.com 玉豆免费节点) 67
+  - 加拿大(yudou66.com 玉豆免费节点) 3
+  - 美国(yudou66.com 玉豆免费节点) 68
+  - 美国(yudou66.com 玉豆免费节点) 69
+  - 加拿大(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 70
+  - 加拿大(yudou66.com 玉豆免费节点) 5
+  - 美国(yudou66.com 玉豆免费节点) 71
+  - 美国(yudou66.com 玉豆免费节点) 72
+  - 俄罗斯(yudou66.com 玉豆免费节点) 3
+  - 美国(yudou66.com 玉豆免费节点) 73
+  - 加拿大(yudou66.com 玉豆免费节点) 6
+  - 美国(yudou66.com 玉豆免费节点) 74
+  - 美国(yudou66.com 玉豆免费节点) 75
+  - 美国(yudou66.com 玉豆免费节点) 76
+  - 美国(yudou66.com 玉豆免费节点) 77
+  - 美国(yudou66.com 玉豆免费节点) 78
+  - 美国(yudou66.com 玉豆免费节点) 79
+  - 美国(yudou66.com 玉豆免费节点) 80
+  - 美国(yudou66.com 玉豆免费节点) 81
+  - 美国(yudou66.com 玉豆免费节点) 82
+  - 美国(yudou66.com 玉豆免费节点) 83
+  - 美国(yudou66.com 玉豆免费节点) 84
+  - 加拿大(yudou66.com 玉豆免费节点) 7
+  - 美国(yudou66.com 玉豆免费节点) 85
+  - 美国(yudou66.com 玉豆免费节点) 86
+  - 美国(yudou66.com 玉豆免费节点) 87
+  - 加拿大(yudou66.com 玉豆免费节点) 8
+  - 美国(yudou66.com 玉豆免费节点) 88
+  - 美国(yudou66.com 玉豆免费节点) 89
+  - 美国(yudou66.com 玉豆免费节点) 90
+  - 美国(yudou66.com 玉豆免费节点) 91
+  - 美国(yudou66.com 玉豆免费节点) 92
+  - 美国(yudou66.com 玉豆免费节点) 93
+  - 美国(yudou66.com 玉豆免费节点) 94
+  - 美国(yudou66.com 玉豆免费节点) 95
+  - 美国(yudou66.com 玉豆免费节点) 96
+  - 加拿大(yudou66.com 玉豆免费节点) 9
+  - 美国(yudou66.com 玉豆免费节点) 97
+  - 美国(yudou66.com 玉豆免费节点) 98
+  - 美国(yudou66.com 玉豆免费节点) 99
+  - 美国(yudou66.com 玉豆免费节点) 100
+  - 德国(yudou66.com 玉豆免费节点) 5
+  - 美国(yudou66.com 玉豆免费节点) 101
+  - 香港(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 102
+  - 美国(yudou66.com 玉豆免费节点) 103
+  - 美国(yudou66.com 玉豆免费节点) 104
+  - 美国(yudou66.com 玉豆免费节点) 105
+  - 美国(yudou66.com 玉豆免费节点) 106
+  - 德国(yudou66.com 玉豆免费节点) 6
+  - 俄罗斯(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 107
+  - 美国(yudou66.com 玉豆免费节点) 108
+  - 德国(yudou66.com 玉豆免费节点) 7
+  - 美国(yudou66.com 玉豆免费节点) 109
+  - 美国(yudou66.com 玉豆免费节点) 110
   type: select
 - name: 🌏 国内媒体
   proxies:
   - 🎯 全球直连
-  - HK香港(mibei77.com 米贝节点分享)
-  - HK香港(mibei77.com 米贝节点分享) 2
-  - HK香港(mibei77.com 米贝节点分享) 3
+  - 香港(yudou66.com 玉豆免费节点)
+  - 香港(yudou66.com 玉豆免费节点) 2
   - 🔰 节点选择
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - US美国(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 3
-  - US美国(mibei77.com 米贝节点分享) 4
-  - US美国(mibei77.com 米贝节点分享) 5
-  - US美国(mibei77.com 米贝节点分享) 6
-  - HK香港(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享) 7
-  - HK香港(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 8
-  - US美国(mibei77.com 米贝节点分享) 9
-  - US美国(mibei77.com 米贝节点分享) 10
-  - US美国(mibei77.com 米贝节点分享) 11
-  - US美国(mibei77.com 米贝节点分享) 12
-  - US美国(mibei77.com 米贝节点分享) 13
-  - US美国(mibei77.com 米贝节点分享) 14
-  - HK香港(mibei77.com 米贝节点分享) 3
-  - US美国(mibei77.com 米贝节点分享) 15
-  - US美国(mibei77.com 米贝节点分享) 16
-  - US美国(mibei77.com 米贝节点分享) 17
-  - US美国(mibei77.com 米贝节点分享) 18
-  - US美国(mibei77.com 米贝节点分享) 19
-  - US美国(mibei77.com 米贝节点分享) 20
-  - US美国(mibei77.com 米贝节点分享) 21
-  - US美国(mibei77.com 米贝节点分享) 22
-  - US美国(mibei77.com 米贝节点分享) 23
-  - US美国(mibei77.com 米贝节点分享) 24
-  - US美国(mibei77.com 米贝节点分享) 25
-  - US美国(mibei77.com 米贝节点分享) 26
-  - US美国(mibei77.com 米贝节点分享) 27
-  - US美国(mibei77.com 米贝节点分享) 28
-  - US美国(mibei77.com 米贝节点分享) 29
-  - US美国(mibei77.com 米贝节点分享) 30
-  - US美国(mibei77.com 米贝节点分享) 31
-  - US美国(mibei77.com 米贝节点分享) 32
-  - US美国(mibei77.com 米贝节点分享) 33
-  - US美国(mibei77.com 米贝节点分享) 34
-  - US美国(mibei77.com 米贝节点分享) 35
-  - US美国(mibei77.com 米贝节点分享) 36
-  - US美国(mibei77.com 米贝节点分享) 37
-  - US美国(mibei77.com 米贝节点分享) 38
-  - US美国(mibei77.com 米贝节点分享) 39
-  - US美国(mibei77.com 米贝节点分享) 40
-  - US美国(mibei77.com 米贝节点分享) 41
-  - US美国(mibei77.com 米贝节点分享) 42
-  - US美国(mibei77.com 米贝节点分享) 43
-  - US美国(mibei77.com 米贝节点分享) 44
-  - US美国(mibei77.com 米贝节点分享) 45
-  - US美国(mibei77.com 米贝节点分享) 46
-  - US美国(mibei77.com 米贝节点分享) 47
-  - US美国(mibei77.com 米贝节点分享) 48
-  - US美国(mibei77.com 米贝节点分享) 49
-  - US美国(mibei77.com 米贝节点分享) 50
-  - US美国(mibei77.com 米贝节点分享) 51
-  - US美国(mibei77.com 米贝节点分享) 52
-  - US美国(mibei77.com 米贝节点分享) 53
-  - US美国(mibei77.com 米贝节点分享) 54
-  - US美国(mibei77.com 米贝节点分享) 55
-  - US美国(mibei77.com 米贝节点分享) 56
-  - US美国(mibei77.com 米贝节点分享) 57
-  - US美国(mibei77.com 米贝节点分享) 58
-  - US美国(mibei77.com 米贝节点分享) 59
-  - US美国(mibei77.com 米贝节点分享) 60
-  - US美国(mibei77.com 米贝节点分享) 61
-  - US美国(mibei77.com 米贝节点分享) 62
-  - US美国(mibei77.com 米贝节点分享) 63
-  - US美国(mibei77.com 米贝节点分享) 64
-  - DE德国(mibei77.com 米贝节点分享)
-  - 俄罗斯(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享) 65
-  - US美国(mibei77.com 米贝节点分享) 66
-  - US美国(mibei77.com 米贝节点分享) 67
+  - 美国(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 3
+  - 美国(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 5
+  - 美国(yudou66.com 玉豆免费节点) 6
+  - 美国(yudou66.com 玉豆免费节点) 7
+  - 美国(yudou66.com 玉豆免费节点) 8
+  - 美国(yudou66.com 玉豆免费节点) 9
+  - 美国(yudou66.com 玉豆免费节点) 10
+  - 美国(yudou66.com 玉豆免费节点) 11
+  - 美国(yudou66.com 玉豆免费节点) 12
+  - 美国(yudou66.com 玉豆免费节点) 13
+  - 加拿大(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 14
+  - 美国(yudou66.com 玉豆免费节点) 15
+  - 加拿大(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 16
+  - 美国(yudou66.com 玉豆免费节点) 17
+  - 美国(yudou66.com 玉豆免费节点) 18
+  - 美国(yudou66.com 玉豆免费节点) 19
+  - 美国(yudou66.com 玉豆免费节点) 20
+  - 美国(yudou66.com 玉豆免费节点) 21
+  - 美国(yudou66.com 玉豆免费节点) 22
+  - 美国(yudou66.com 玉豆免费节点) 23
+  - 美国(yudou66.com 玉豆免费节点) 24
+  - 美国(yudou66.com 玉豆免费节点) 25
+  - 美国(yudou66.com 玉豆免费节点) 26
+  - 美国(yudou66.com 玉豆免费节点) 27
+  - 美国(yudou66.com 玉豆免费节点) 28
+  - 美国(yudou66.com 玉豆免费节点) 29
+  - 美国(yudou66.com 玉豆免费节点) 30
+  - 美国(yudou66.com 玉豆免费节点) 31
+  - 美国(yudou66.com 玉豆免费节点) 32
+  - 俄罗斯(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 33
+  - 香港(yudou66.com 玉豆免费节点)
+  - 俄罗斯(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 34
+  - 美国(yudou66.com 玉豆免费节点) 35
+  - 美国(yudou66.com 玉豆免费节点) 36
+  - 美国(yudou66.com 玉豆免费节点) 37
+  - 美国(yudou66.com 玉豆免费节点) 38
+  - 美国(yudou66.com 玉豆免费节点) 39
+  - 美国(yudou66.com 玉豆免费节点) 40
+  - 美国(yudou66.com 玉豆免费节点) 41
+  - 美国(yudou66.com 玉豆免费节点) 42
+  - 美国(yudou66.com 玉豆免费节点) 43
+  - 美国(yudou66.com 玉豆免费节点) 44
+  - 美国(yudou66.com 玉豆免费节点) 45
+  - 美国(yudou66.com 玉豆免费节点) 46
+  - 美国(yudou66.com 玉豆免费节点) 47
+  - 美国(yudou66.com 玉豆免费节点) 48
+  - 美国(yudou66.com 玉豆免费节点) 49
+  - 美国(yudou66.com 玉豆免费节点) 50
+  - 美国(yudou66.com 玉豆免费节点) 51
+  - 美国(yudou66.com 玉豆免费节点) 52
+  - 德国(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 53
+  - 美国(yudou66.com 玉豆免费节点) 54
+  - 美国(yudou66.com 玉豆免费节点) 55
+  - 德国(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 56
+  - 美国(yudou66.com 玉豆免费节点) 57
+  - 美国(yudou66.com 玉豆免费节点) 58
+  - 德国(yudou66.com 玉豆免费节点) 3
+  - 德国(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 59
+  - 美国(yudou66.com 玉豆免费节点) 60
+  - 美国(yudou66.com 玉豆免费节点) 61
+  - 美国(yudou66.com 玉豆免费节点) 62
+  - 美国(yudou66.com 玉豆免费节点) 63
+  - 美国(yudou66.com 玉豆免费节点) 64
+  - 美国(yudou66.com 玉豆免费节点) 65
+  - 美国(yudou66.com 玉豆免费节点) 66
+  - 美国(yudou66.com 玉豆免费节点) 67
+  - 加拿大(yudou66.com 玉豆免费节点) 3
+  - 美国(yudou66.com 玉豆免费节点) 68
+  - 美国(yudou66.com 玉豆免费节点) 69
+  - 加拿大(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 70
+  - 加拿大(yudou66.com 玉豆免费节点) 5
+  - 美国(yudou66.com 玉豆免费节点) 71
+  - 美国(yudou66.com 玉豆免费节点) 72
+  - 俄罗斯(yudou66.com 玉豆免费节点) 3
+  - 美国(yudou66.com 玉豆免费节点) 73
+  - 加拿大(yudou66.com 玉豆免费节点) 6
+  - 美国(yudou66.com 玉豆免费节点) 74
+  - 美国(yudou66.com 玉豆免费节点) 75
+  - 美国(yudou66.com 玉豆免费节点) 76
+  - 美国(yudou66.com 玉豆免费节点) 77
+  - 美国(yudou66.com 玉豆免费节点) 78
+  - 美国(yudou66.com 玉豆免费节点) 79
+  - 美国(yudou66.com 玉豆免费节点) 80
+  - 美国(yudou66.com 玉豆免费节点) 81
+  - 美国(yudou66.com 玉豆免费节点) 82
+  - 美国(yudou66.com 玉豆免费节点) 83
+  - 美国(yudou66.com 玉豆免费节点) 84
+  - 加拿大(yudou66.com 玉豆免费节点) 7
+  - 美国(yudou66.com 玉豆免费节点) 85
+  - 美国(yudou66.com 玉豆免费节点) 86
+  - 美国(yudou66.com 玉豆免费节点) 87
+  - 加拿大(yudou66.com 玉豆免费节点) 8
+  - 美国(yudou66.com 玉豆免费节点) 88
+  - 美国(yudou66.com 玉豆免费节点) 89
+  - 美国(yudou66.com 玉豆免费节点) 90
+  - 美国(yudou66.com 玉豆免费节点) 91
+  - 美国(yudou66.com 玉豆免费节点) 92
+  - 美国(yudou66.com 玉豆免费节点) 93
+  - 美国(yudou66.com 玉豆免费节点) 94
+  - 美国(yudou66.com 玉豆免费节点) 95
+  - 美国(yudou66.com 玉豆免费节点) 96
+  - 加拿大(yudou66.com 玉豆免费节点) 9
+  - 美国(yudou66.com 玉豆免费节点) 97
+  - 美国(yudou66.com 玉豆免费节点) 98
+  - 美国(yudou66.com 玉豆免费节点) 99
+  - 美国(yudou66.com 玉豆免费节点) 100
+  - 德国(yudou66.com 玉豆免费节点) 5
+  - 美国(yudou66.com 玉豆免费节点) 101
+  - 香港(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 102
+  - 美国(yudou66.com 玉豆免费节点) 103
+  - 美国(yudou66.com 玉豆免费节点) 104
+  - 美国(yudou66.com 玉豆免费节点) 105
+  - 美国(yudou66.com 玉豆免费节点) 106
+  - 德国(yudou66.com 玉豆免费节点) 6
+  - 俄罗斯(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 107
+  - 美国(yudou66.com 玉豆免费节点) 108
+  - 德国(yudou66.com 玉豆免费节点) 7
+  - 美国(yudou66.com 玉豆免费节点) 109
+  - 美国(yudou66.com 玉豆免费节点) 110
   type: select
 - name: 📲 电报信息
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
-  - US美国(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 3
-  - US美国(mibei77.com 米贝节点分享) 4
-  - US美国(mibei77.com 米贝节点分享) 5
-  - US美国(mibei77.com 米贝节点分享) 6
-  - HK香港(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享) 7
-  - HK香港(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 8
-  - US美国(mibei77.com 米贝节点分享) 9
-  - US美国(mibei77.com 米贝节点分享) 10
-  - US美国(mibei77.com 米贝节点分享) 11
-  - US美国(mibei77.com 米贝节点分享) 12
-  - US美国(mibei77.com 米贝节点分享) 13
-  - US美国(mibei77.com 米贝节点分享) 14
-  - HK香港(mibei77.com 米贝节点分享) 3
-  - US美国(mibei77.com 米贝节点分享) 15
-  - US美国(mibei77.com 米贝节点分享) 16
-  - US美国(mibei77.com 米贝节点分享) 17
-  - US美国(mibei77.com 米贝节点分享) 18
-  - US美国(mibei77.com 米贝节点分享) 19
-  - US美国(mibei77.com 米贝节点分享) 20
-  - US美国(mibei77.com 米贝节点分享) 21
-  - US美国(mibei77.com 米贝节点分享) 22
-  - US美国(mibei77.com 米贝节点分享) 23
-  - US美国(mibei77.com 米贝节点分享) 24
-  - US美国(mibei77.com 米贝节点分享) 25
-  - US美国(mibei77.com 米贝节点分享) 26
-  - US美国(mibei77.com 米贝节点分享) 27
-  - US美国(mibei77.com 米贝节点分享) 28
-  - US美国(mibei77.com 米贝节点分享) 29
-  - US美国(mibei77.com 米贝节点分享) 30
-  - US美国(mibei77.com 米贝节点分享) 31
-  - US美国(mibei77.com 米贝节点分享) 32
-  - US美国(mibei77.com 米贝节点分享) 33
-  - US美国(mibei77.com 米贝节点分享) 34
-  - US美国(mibei77.com 米贝节点分享) 35
-  - US美国(mibei77.com 米贝节点分享) 36
-  - US美国(mibei77.com 米贝节点分享) 37
-  - US美国(mibei77.com 米贝节点分享) 38
-  - US美国(mibei77.com 米贝节点分享) 39
-  - US美国(mibei77.com 米贝节点分享) 40
-  - US美国(mibei77.com 米贝节点分享) 41
-  - US美国(mibei77.com 米贝节点分享) 42
-  - US美国(mibei77.com 米贝节点分享) 43
-  - US美国(mibei77.com 米贝节点分享) 44
-  - US美国(mibei77.com 米贝节点分享) 45
-  - US美国(mibei77.com 米贝节点分享) 46
-  - US美国(mibei77.com 米贝节点分享) 47
-  - US美国(mibei77.com 米贝节点分享) 48
-  - US美国(mibei77.com 米贝节点分享) 49
-  - US美国(mibei77.com 米贝节点分享) 50
-  - US美国(mibei77.com 米贝节点分享) 51
-  - US美国(mibei77.com 米贝节点分享) 52
-  - US美国(mibei77.com 米贝节点分享) 53
-  - US美国(mibei77.com 米贝节点分享) 54
-  - US美国(mibei77.com 米贝节点分享) 55
-  - US美国(mibei77.com 米贝节点分享) 56
-  - US美国(mibei77.com 米贝节点分享) 57
-  - US美国(mibei77.com 米贝节点分享) 58
-  - US美国(mibei77.com 米贝节点分享) 59
-  - US美国(mibei77.com 米贝节点分享) 60
-  - US美国(mibei77.com 米贝节点分享) 61
-  - US美国(mibei77.com 米贝节点分享) 62
-  - US美国(mibei77.com 米贝节点分享) 63
-  - US美国(mibei77.com 米贝节点分享) 64
-  - DE德国(mibei77.com 米贝节点分享)
-  - 俄罗斯(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享) 65
-  - US美国(mibei77.com 米贝节点分享) 66
-  - US美国(mibei77.com 米贝节点分享) 67
+  - 美国(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 3
+  - 美国(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 5
+  - 美国(yudou66.com 玉豆免费节点) 6
+  - 美国(yudou66.com 玉豆免费节点) 7
+  - 美国(yudou66.com 玉豆免费节点) 8
+  - 美国(yudou66.com 玉豆免费节点) 9
+  - 美国(yudou66.com 玉豆免费节点) 10
+  - 美国(yudou66.com 玉豆免费节点) 11
+  - 美国(yudou66.com 玉豆免费节点) 12
+  - 美国(yudou66.com 玉豆免费节点) 13
+  - 加拿大(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 14
+  - 美国(yudou66.com 玉豆免费节点) 15
+  - 加拿大(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 16
+  - 美国(yudou66.com 玉豆免费节点) 17
+  - 美国(yudou66.com 玉豆免费节点) 18
+  - 美国(yudou66.com 玉豆免费节点) 19
+  - 美国(yudou66.com 玉豆免费节点) 20
+  - 美国(yudou66.com 玉豆免费节点) 21
+  - 美国(yudou66.com 玉豆免费节点) 22
+  - 美国(yudou66.com 玉豆免费节点) 23
+  - 美国(yudou66.com 玉豆免费节点) 24
+  - 美国(yudou66.com 玉豆免费节点) 25
+  - 美国(yudou66.com 玉豆免费节点) 26
+  - 美国(yudou66.com 玉豆免费节点) 27
+  - 美国(yudou66.com 玉豆免费节点) 28
+  - 美国(yudou66.com 玉豆免费节点) 29
+  - 美国(yudou66.com 玉豆免费节点) 30
+  - 美国(yudou66.com 玉豆免费节点) 31
+  - 美国(yudou66.com 玉豆免费节点) 32
+  - 俄罗斯(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 33
+  - 香港(yudou66.com 玉豆免费节点)
+  - 俄罗斯(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 34
+  - 美国(yudou66.com 玉豆免费节点) 35
+  - 美国(yudou66.com 玉豆免费节点) 36
+  - 美国(yudou66.com 玉豆免费节点) 37
+  - 美国(yudou66.com 玉豆免费节点) 38
+  - 美国(yudou66.com 玉豆免费节点) 39
+  - 美国(yudou66.com 玉豆免费节点) 40
+  - 美国(yudou66.com 玉豆免费节点) 41
+  - 美国(yudou66.com 玉豆免费节点) 42
+  - 美国(yudou66.com 玉豆免费节点) 43
+  - 美国(yudou66.com 玉豆免费节点) 44
+  - 美国(yudou66.com 玉豆免费节点) 45
+  - 美国(yudou66.com 玉豆免费节点) 46
+  - 美国(yudou66.com 玉豆免费节点) 47
+  - 美国(yudou66.com 玉豆免费节点) 48
+  - 美国(yudou66.com 玉豆免费节点) 49
+  - 美国(yudou66.com 玉豆免费节点) 50
+  - 美国(yudou66.com 玉豆免费节点) 51
+  - 美国(yudou66.com 玉豆免费节点) 52
+  - 德国(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 53
+  - 美国(yudou66.com 玉豆免费节点) 54
+  - 美国(yudou66.com 玉豆免费节点) 55
+  - 德国(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 56
+  - 美国(yudou66.com 玉豆免费节点) 57
+  - 美国(yudou66.com 玉豆免费节点) 58
+  - 德国(yudou66.com 玉豆免费节点) 3
+  - 德国(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 59
+  - 美国(yudou66.com 玉豆免费节点) 60
+  - 美国(yudou66.com 玉豆免费节点) 61
+  - 美国(yudou66.com 玉豆免费节点) 62
+  - 美国(yudou66.com 玉豆免费节点) 63
+  - 美国(yudou66.com 玉豆免费节点) 64
+  - 美国(yudou66.com 玉豆免费节点) 65
+  - 美国(yudou66.com 玉豆免费节点) 66
+  - 美国(yudou66.com 玉豆免费节点) 67
+  - 加拿大(yudou66.com 玉豆免费节点) 3
+  - 美国(yudou66.com 玉豆免费节点) 68
+  - 美国(yudou66.com 玉豆免费节点) 69
+  - 加拿大(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 70
+  - 加拿大(yudou66.com 玉豆免费节点) 5
+  - 美国(yudou66.com 玉豆免费节点) 71
+  - 美国(yudou66.com 玉豆免费节点) 72
+  - 俄罗斯(yudou66.com 玉豆免费节点) 3
+  - 美国(yudou66.com 玉豆免费节点) 73
+  - 加拿大(yudou66.com 玉豆免费节点) 6
+  - 美国(yudou66.com 玉豆免费节点) 74
+  - 美国(yudou66.com 玉豆免费节点) 75
+  - 美国(yudou66.com 玉豆免费节点) 76
+  - 美国(yudou66.com 玉豆免费节点) 77
+  - 美国(yudou66.com 玉豆免费节点) 78
+  - 美国(yudou66.com 玉豆免费节点) 79
+  - 美国(yudou66.com 玉豆免费节点) 80
+  - 美国(yudou66.com 玉豆免费节点) 81
+  - 美国(yudou66.com 玉豆免费节点) 82
+  - 美国(yudou66.com 玉豆免费节点) 83
+  - 美国(yudou66.com 玉豆免费节点) 84
+  - 加拿大(yudou66.com 玉豆免费节点) 7
+  - 美国(yudou66.com 玉豆免费节点) 85
+  - 美国(yudou66.com 玉豆免费节点) 86
+  - 美国(yudou66.com 玉豆免费节点) 87
+  - 加拿大(yudou66.com 玉豆免费节点) 8
+  - 美国(yudou66.com 玉豆免费节点) 88
+  - 美国(yudou66.com 玉豆免费节点) 89
+  - 美国(yudou66.com 玉豆免费节点) 90
+  - 美国(yudou66.com 玉豆免费节点) 91
+  - 美国(yudou66.com 玉豆免费节点) 92
+  - 美国(yudou66.com 玉豆免费节点) 93
+  - 美国(yudou66.com 玉豆免费节点) 94
+  - 美国(yudou66.com 玉豆免费节点) 95
+  - 美国(yudou66.com 玉豆免费节点) 96
+  - 加拿大(yudou66.com 玉豆免费节点) 9
+  - 美国(yudou66.com 玉豆免费节点) 97
+  - 美国(yudou66.com 玉豆免费节点) 98
+  - 美国(yudou66.com 玉豆免费节点) 99
+  - 美国(yudou66.com 玉豆免费节点) 100
+  - 德国(yudou66.com 玉豆免费节点) 5
+  - 美国(yudou66.com 玉豆免费节点) 101
+  - 香港(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 102
+  - 美国(yudou66.com 玉豆免费节点) 103
+  - 美国(yudou66.com 玉豆免费节点) 104
+  - 美国(yudou66.com 玉豆免费节点) 105
+  - 美国(yudou66.com 玉豆免费节点) 106
+  - 德国(yudou66.com 玉豆免费节点) 6
+  - 俄罗斯(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 107
+  - 美国(yudou66.com 玉豆免费节点) 108
+  - 德国(yudou66.com 玉豆免费节点) 7
+  - 美国(yudou66.com 玉豆免费节点) 109
+  - 美国(yudou66.com 玉豆免费节点) 110
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - US美国(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 3
-  - US美国(mibei77.com 米贝节点分享) 4
-  - US美国(mibei77.com 米贝节点分享) 5
-  - US美国(mibei77.com 米贝节点分享) 6
-  - HK香港(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享) 7
-  - HK香港(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 8
-  - US美国(mibei77.com 米贝节点分享) 9
-  - US美国(mibei77.com 米贝节点分享) 10
-  - US美国(mibei77.com 米贝节点分享) 11
-  - US美国(mibei77.com 米贝节点分享) 12
-  - US美国(mibei77.com 米贝节点分享) 13
-  - US美国(mibei77.com 米贝节点分享) 14
-  - HK香港(mibei77.com 米贝节点分享) 3
-  - US美国(mibei77.com 米贝节点分享) 15
-  - US美国(mibei77.com 米贝节点分享) 16
-  - US美国(mibei77.com 米贝节点分享) 17
-  - US美国(mibei77.com 米贝节点分享) 18
-  - US美国(mibei77.com 米贝节点分享) 19
-  - US美国(mibei77.com 米贝节点分享) 20
-  - US美国(mibei77.com 米贝节点分享) 21
-  - US美国(mibei77.com 米贝节点分享) 22
-  - US美国(mibei77.com 米贝节点分享) 23
-  - US美国(mibei77.com 米贝节点分享) 24
-  - US美国(mibei77.com 米贝节点分享) 25
-  - US美国(mibei77.com 米贝节点分享) 26
-  - US美国(mibei77.com 米贝节点分享) 27
-  - US美国(mibei77.com 米贝节点分享) 28
-  - US美国(mibei77.com 米贝节点分享) 29
-  - US美国(mibei77.com 米贝节点分享) 30
-  - US美国(mibei77.com 米贝节点分享) 31
-  - US美国(mibei77.com 米贝节点分享) 32
-  - US美国(mibei77.com 米贝节点分享) 33
-  - US美国(mibei77.com 米贝节点分享) 34
-  - US美国(mibei77.com 米贝节点分享) 35
-  - US美国(mibei77.com 米贝节点分享) 36
-  - US美国(mibei77.com 米贝节点分享) 37
-  - US美国(mibei77.com 米贝节点分享) 38
-  - US美国(mibei77.com 米贝节点分享) 39
-  - US美国(mibei77.com 米贝节点分享) 40
-  - US美国(mibei77.com 米贝节点分享) 41
-  - US美国(mibei77.com 米贝节点分享) 42
-  - US美国(mibei77.com 米贝节点分享) 43
-  - US美国(mibei77.com 米贝节点分享) 44
-  - US美国(mibei77.com 米贝节点分享) 45
-  - US美国(mibei77.com 米贝节点分享) 46
-  - US美国(mibei77.com 米贝节点分享) 47
-  - US美国(mibei77.com 米贝节点分享) 48
-  - US美国(mibei77.com 米贝节点分享) 49
-  - US美国(mibei77.com 米贝节点分享) 50
-  - US美国(mibei77.com 米贝节点分享) 51
-  - US美国(mibei77.com 米贝节点分享) 52
-  - US美国(mibei77.com 米贝节点分享) 53
-  - US美国(mibei77.com 米贝节点分享) 54
-  - US美国(mibei77.com 米贝节点分享) 55
-  - US美国(mibei77.com 米贝节点分享) 56
-  - US美国(mibei77.com 米贝节点分享) 57
-  - US美国(mibei77.com 米贝节点分享) 58
-  - US美国(mibei77.com 米贝节点分享) 59
-  - US美国(mibei77.com 米贝节点分享) 60
-  - US美国(mibei77.com 米贝节点分享) 61
-  - US美国(mibei77.com 米贝节点分享) 62
-  - US美国(mibei77.com 米贝节点分享) 63
-  - US美国(mibei77.com 米贝节点分享) 64
-  - DE德国(mibei77.com 米贝节点分享)
-  - 俄罗斯(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享) 65
-  - US美国(mibei77.com 米贝节点分享) 66
-  - US美国(mibei77.com 米贝节点分享) 67
+  - 美国(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 3
+  - 美国(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 5
+  - 美国(yudou66.com 玉豆免费节点) 6
+  - 美国(yudou66.com 玉豆免费节点) 7
+  - 美国(yudou66.com 玉豆免费节点) 8
+  - 美国(yudou66.com 玉豆免费节点) 9
+  - 美国(yudou66.com 玉豆免费节点) 10
+  - 美国(yudou66.com 玉豆免费节点) 11
+  - 美国(yudou66.com 玉豆免费节点) 12
+  - 美国(yudou66.com 玉豆免费节点) 13
+  - 加拿大(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 14
+  - 美国(yudou66.com 玉豆免费节点) 15
+  - 加拿大(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 16
+  - 美国(yudou66.com 玉豆免费节点) 17
+  - 美国(yudou66.com 玉豆免费节点) 18
+  - 美国(yudou66.com 玉豆免费节点) 19
+  - 美国(yudou66.com 玉豆免费节点) 20
+  - 美国(yudou66.com 玉豆免费节点) 21
+  - 美国(yudou66.com 玉豆免费节点) 22
+  - 美国(yudou66.com 玉豆免费节点) 23
+  - 美国(yudou66.com 玉豆免费节点) 24
+  - 美国(yudou66.com 玉豆免费节点) 25
+  - 美国(yudou66.com 玉豆免费节点) 26
+  - 美国(yudou66.com 玉豆免费节点) 27
+  - 美国(yudou66.com 玉豆免费节点) 28
+  - 美国(yudou66.com 玉豆免费节点) 29
+  - 美国(yudou66.com 玉豆免费节点) 30
+  - 美国(yudou66.com 玉豆免费节点) 31
+  - 美国(yudou66.com 玉豆免费节点) 32
+  - 俄罗斯(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 33
+  - 香港(yudou66.com 玉豆免费节点)
+  - 俄罗斯(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 34
+  - 美国(yudou66.com 玉豆免费节点) 35
+  - 美国(yudou66.com 玉豆免费节点) 36
+  - 美国(yudou66.com 玉豆免费节点) 37
+  - 美国(yudou66.com 玉豆免费节点) 38
+  - 美国(yudou66.com 玉豆免费节点) 39
+  - 美国(yudou66.com 玉豆免费节点) 40
+  - 美国(yudou66.com 玉豆免费节点) 41
+  - 美国(yudou66.com 玉豆免费节点) 42
+  - 美国(yudou66.com 玉豆免费节点) 43
+  - 美国(yudou66.com 玉豆免费节点) 44
+  - 美国(yudou66.com 玉豆免费节点) 45
+  - 美国(yudou66.com 玉豆免费节点) 46
+  - 美国(yudou66.com 玉豆免费节点) 47
+  - 美国(yudou66.com 玉豆免费节点) 48
+  - 美国(yudou66.com 玉豆免费节点) 49
+  - 美国(yudou66.com 玉豆免费节点) 50
+  - 美国(yudou66.com 玉豆免费节点) 51
+  - 美国(yudou66.com 玉豆免费节点) 52
+  - 德国(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 53
+  - 美国(yudou66.com 玉豆免费节点) 54
+  - 美国(yudou66.com 玉豆免费节点) 55
+  - 德国(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 56
+  - 美国(yudou66.com 玉豆免费节点) 57
+  - 美国(yudou66.com 玉豆免费节点) 58
+  - 德国(yudou66.com 玉豆免费节点) 3
+  - 德国(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 59
+  - 美国(yudou66.com 玉豆免费节点) 60
+  - 美国(yudou66.com 玉豆免费节点) 61
+  - 美国(yudou66.com 玉豆免费节点) 62
+  - 美国(yudou66.com 玉豆免费节点) 63
+  - 美国(yudou66.com 玉豆免费节点) 64
+  - 美国(yudou66.com 玉豆免费节点) 65
+  - 美国(yudou66.com 玉豆免费节点) 66
+  - 美国(yudou66.com 玉豆免费节点) 67
+  - 加拿大(yudou66.com 玉豆免费节点) 3
+  - 美国(yudou66.com 玉豆免费节点) 68
+  - 美国(yudou66.com 玉豆免费节点) 69
+  - 加拿大(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 70
+  - 加拿大(yudou66.com 玉豆免费节点) 5
+  - 美国(yudou66.com 玉豆免费节点) 71
+  - 美国(yudou66.com 玉豆免费节点) 72
+  - 俄罗斯(yudou66.com 玉豆免费节点) 3
+  - 美国(yudou66.com 玉豆免费节点) 73
+  - 加拿大(yudou66.com 玉豆免费节点) 6
+  - 美国(yudou66.com 玉豆免费节点) 74
+  - 美国(yudou66.com 玉豆免费节点) 75
+  - 美国(yudou66.com 玉豆免费节点) 76
+  - 美国(yudou66.com 玉豆免费节点) 77
+  - 美国(yudou66.com 玉豆免费节点) 78
+  - 美国(yudou66.com 玉豆免费节点) 79
+  - 美国(yudou66.com 玉豆免费节点) 80
+  - 美国(yudou66.com 玉豆免费节点) 81
+  - 美国(yudou66.com 玉豆免费节点) 82
+  - 美国(yudou66.com 玉豆免费节点) 83
+  - 美国(yudou66.com 玉豆免费节点) 84
+  - 加拿大(yudou66.com 玉豆免费节点) 7
+  - 美国(yudou66.com 玉豆免费节点) 85
+  - 美国(yudou66.com 玉豆免费节点) 86
+  - 美国(yudou66.com 玉豆免费节点) 87
+  - 加拿大(yudou66.com 玉豆免费节点) 8
+  - 美国(yudou66.com 玉豆免费节点) 88
+  - 美国(yudou66.com 玉豆免费节点) 89
+  - 美国(yudou66.com 玉豆免费节点) 90
+  - 美国(yudou66.com 玉豆免费节点) 91
+  - 美国(yudou66.com 玉豆免费节点) 92
+  - 美国(yudou66.com 玉豆免费节点) 93
+  - 美国(yudou66.com 玉豆免费节点) 94
+  - 美国(yudou66.com 玉豆免费节点) 95
+  - 美国(yudou66.com 玉豆免费节点) 96
+  - 加拿大(yudou66.com 玉豆免费节点) 9
+  - 美国(yudou66.com 玉豆免费节点) 97
+  - 美国(yudou66.com 玉豆免费节点) 98
+  - 美国(yudou66.com 玉豆免费节点) 99
+  - 美国(yudou66.com 玉豆免费节点) 100
+  - 德国(yudou66.com 玉豆免费节点) 5
+  - 美国(yudou66.com 玉豆免费节点) 101
+  - 香港(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 102
+  - 美国(yudou66.com 玉豆免费节点) 103
+  - 美国(yudou66.com 玉豆免费节点) 104
+  - 美国(yudou66.com 玉豆免费节点) 105
+  - 美国(yudou66.com 玉豆免费节点) 106
+  - 德国(yudou66.com 玉豆免费节点) 6
+  - 俄罗斯(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 107
+  - 美国(yudou66.com 玉豆免费节点) 108
+  - 德国(yudou66.com 玉豆免费节点) 7
+  - 美国(yudou66.com 玉豆免费节点) 109
+  - 美国(yudou66.com 玉豆免费节点) 110
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -1524,78 +2616,138 @@ proxy-groups:
   - 🔰 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - US美国(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 3
-  - US美国(mibei77.com 米贝节点分享) 4
-  - US美国(mibei77.com 米贝节点分享) 5
-  - US美国(mibei77.com 米贝节点分享) 6
-  - HK香港(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享) 7
-  - HK香港(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 8
-  - US美国(mibei77.com 米贝节点分享) 9
-  - US美国(mibei77.com 米贝节点分享) 10
-  - US美国(mibei77.com 米贝节点分享) 11
-  - US美国(mibei77.com 米贝节点分享) 12
-  - US美国(mibei77.com 米贝节点分享) 13
-  - US美国(mibei77.com 米贝节点分享) 14
-  - HK香港(mibei77.com 米贝节点分享) 3
-  - US美国(mibei77.com 米贝节点分享) 15
-  - US美国(mibei77.com 米贝节点分享) 16
-  - US美国(mibei77.com 米贝节点分享) 17
-  - US美国(mibei77.com 米贝节点分享) 18
-  - US美国(mibei77.com 米贝节点分享) 19
-  - US美国(mibei77.com 米贝节点分享) 20
-  - US美国(mibei77.com 米贝节点分享) 21
-  - US美国(mibei77.com 米贝节点分享) 22
-  - US美国(mibei77.com 米贝节点分享) 23
-  - US美国(mibei77.com 米贝节点分享) 24
-  - US美国(mibei77.com 米贝节点分享) 25
-  - US美国(mibei77.com 米贝节点分享) 26
-  - US美国(mibei77.com 米贝节点分享) 27
-  - US美国(mibei77.com 米贝节点分享) 28
-  - US美国(mibei77.com 米贝节点分享) 29
-  - US美国(mibei77.com 米贝节点分享) 30
-  - US美国(mibei77.com 米贝节点分享) 31
-  - US美国(mibei77.com 米贝节点分享) 32
-  - US美国(mibei77.com 米贝节点分享) 33
-  - US美国(mibei77.com 米贝节点分享) 34
-  - US美国(mibei77.com 米贝节点分享) 35
-  - US美国(mibei77.com 米贝节点分享) 36
-  - US美国(mibei77.com 米贝节点分享) 37
-  - US美国(mibei77.com 米贝节点分享) 38
-  - US美国(mibei77.com 米贝节点分享) 39
-  - US美国(mibei77.com 米贝节点分享) 40
-  - US美国(mibei77.com 米贝节点分享) 41
-  - US美国(mibei77.com 米贝节点分享) 42
-  - US美国(mibei77.com 米贝节点分享) 43
-  - US美国(mibei77.com 米贝节点分享) 44
-  - US美国(mibei77.com 米贝节点分享) 45
-  - US美国(mibei77.com 米贝节点分享) 46
-  - US美国(mibei77.com 米贝节点分享) 47
-  - US美国(mibei77.com 米贝节点分享) 48
-  - US美国(mibei77.com 米贝节点分享) 49
-  - US美国(mibei77.com 米贝节点分享) 50
-  - US美国(mibei77.com 米贝节点分享) 51
-  - US美国(mibei77.com 米贝节点分享) 52
-  - US美国(mibei77.com 米贝节点分享) 53
-  - US美国(mibei77.com 米贝节点分享) 54
-  - US美国(mibei77.com 米贝节点分享) 55
-  - US美国(mibei77.com 米贝节点分享) 56
-  - US美国(mibei77.com 米贝节点分享) 57
-  - US美国(mibei77.com 米贝节点分享) 58
-  - US美国(mibei77.com 米贝节点分享) 59
-  - US美国(mibei77.com 米贝节点分享) 60
-  - US美国(mibei77.com 米贝节点分享) 61
-  - US美国(mibei77.com 米贝节点分享) 62
-  - US美国(mibei77.com 米贝节点分享) 63
-  - US美国(mibei77.com 米贝节点分享) 64
-  - DE德国(mibei77.com 米贝节点分享)
-  - 俄罗斯(mibei77.com 米贝节点分享)
-  - US美国(mibei77.com 米贝节点分享) 65
-  - US美国(mibei77.com 米贝节点分享) 66
-  - US美国(mibei77.com 米贝节点分享) 67
+  - 美国(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 3
+  - 美国(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 5
+  - 美国(yudou66.com 玉豆免费节点) 6
+  - 美国(yudou66.com 玉豆免费节点) 7
+  - 美国(yudou66.com 玉豆免费节点) 8
+  - 美国(yudou66.com 玉豆免费节点) 9
+  - 美国(yudou66.com 玉豆免费节点) 10
+  - 美国(yudou66.com 玉豆免费节点) 11
+  - 美国(yudou66.com 玉豆免费节点) 12
+  - 美国(yudou66.com 玉豆免费节点) 13
+  - 加拿大(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 14
+  - 美国(yudou66.com 玉豆免费节点) 15
+  - 加拿大(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 16
+  - 美国(yudou66.com 玉豆免费节点) 17
+  - 美国(yudou66.com 玉豆免费节点) 18
+  - 美国(yudou66.com 玉豆免费节点) 19
+  - 美国(yudou66.com 玉豆免费节点) 20
+  - 美国(yudou66.com 玉豆免费节点) 21
+  - 美国(yudou66.com 玉豆免费节点) 22
+  - 美国(yudou66.com 玉豆免费节点) 23
+  - 美国(yudou66.com 玉豆免费节点) 24
+  - 美国(yudou66.com 玉豆免费节点) 25
+  - 美国(yudou66.com 玉豆免费节点) 26
+  - 美国(yudou66.com 玉豆免费节点) 27
+  - 美国(yudou66.com 玉豆免费节点) 28
+  - 美国(yudou66.com 玉豆免费节点) 29
+  - 美国(yudou66.com 玉豆免费节点) 30
+  - 美国(yudou66.com 玉豆免费节点) 31
+  - 美国(yudou66.com 玉豆免费节点) 32
+  - 俄罗斯(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 33
+  - 香港(yudou66.com 玉豆免费节点)
+  - 俄罗斯(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 34
+  - 美国(yudou66.com 玉豆免费节点) 35
+  - 美国(yudou66.com 玉豆免费节点) 36
+  - 美国(yudou66.com 玉豆免费节点) 37
+  - 美国(yudou66.com 玉豆免费节点) 38
+  - 美国(yudou66.com 玉豆免费节点) 39
+  - 美国(yudou66.com 玉豆免费节点) 40
+  - 美国(yudou66.com 玉豆免费节点) 41
+  - 美国(yudou66.com 玉豆免费节点) 42
+  - 美国(yudou66.com 玉豆免费节点) 43
+  - 美国(yudou66.com 玉豆免费节点) 44
+  - 美国(yudou66.com 玉豆免费节点) 45
+  - 美国(yudou66.com 玉豆免费节点) 46
+  - 美国(yudou66.com 玉豆免费节点) 47
+  - 美国(yudou66.com 玉豆免费节点) 48
+  - 美国(yudou66.com 玉豆免费节点) 49
+  - 美国(yudou66.com 玉豆免费节点) 50
+  - 美国(yudou66.com 玉豆免费节点) 51
+  - 美国(yudou66.com 玉豆免费节点) 52
+  - 德国(yudou66.com 玉豆免费节点)
+  - 美国(yudou66.com 玉豆免费节点) 53
+  - 美国(yudou66.com 玉豆免费节点) 54
+  - 美国(yudou66.com 玉豆免费节点) 55
+  - 德国(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 56
+  - 美国(yudou66.com 玉豆免费节点) 57
+  - 美国(yudou66.com 玉豆免费节点) 58
+  - 德国(yudou66.com 玉豆免费节点) 3
+  - 德国(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 59
+  - 美国(yudou66.com 玉豆免费节点) 60
+  - 美国(yudou66.com 玉豆免费节点) 61
+  - 美国(yudou66.com 玉豆免费节点) 62
+  - 美国(yudou66.com 玉豆免费节点) 63
+  - 美国(yudou66.com 玉豆免费节点) 64
+  - 美国(yudou66.com 玉豆免费节点) 65
+  - 美国(yudou66.com 玉豆免费节点) 66
+  - 美国(yudou66.com 玉豆免费节点) 67
+  - 加拿大(yudou66.com 玉豆免费节点) 3
+  - 美国(yudou66.com 玉豆免费节点) 68
+  - 美国(yudou66.com 玉豆免费节点) 69
+  - 加拿大(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 70
+  - 加拿大(yudou66.com 玉豆免费节点) 5
+  - 美国(yudou66.com 玉豆免费节点) 71
+  - 美国(yudou66.com 玉豆免费节点) 72
+  - 俄罗斯(yudou66.com 玉豆免费节点) 3
+  - 美国(yudou66.com 玉豆免费节点) 73
+  - 加拿大(yudou66.com 玉豆免费节点) 6
+  - 美国(yudou66.com 玉豆免费节点) 74
+  - 美国(yudou66.com 玉豆免费节点) 75
+  - 美国(yudou66.com 玉豆免费节点) 76
+  - 美国(yudou66.com 玉豆免费节点) 77
+  - 美国(yudou66.com 玉豆免费节点) 78
+  - 美国(yudou66.com 玉豆免费节点) 79
+  - 美国(yudou66.com 玉豆免费节点) 80
+  - 美国(yudou66.com 玉豆免费节点) 81
+  - 美国(yudou66.com 玉豆免费节点) 82
+  - 美国(yudou66.com 玉豆免费节点) 83
+  - 美国(yudou66.com 玉豆免费节点) 84
+  - 加拿大(yudou66.com 玉豆免费节点) 7
+  - 美国(yudou66.com 玉豆免费节点) 85
+  - 美国(yudou66.com 玉豆免费节点) 86
+  - 美国(yudou66.com 玉豆免费节点) 87
+  - 加拿大(yudou66.com 玉豆免费节点) 8
+  - 美国(yudou66.com 玉豆免费节点) 88
+  - 美国(yudou66.com 玉豆免费节点) 89
+  - 美国(yudou66.com 玉豆免费节点) 90
+  - 美国(yudou66.com 玉豆免费节点) 91
+  - 美国(yudou66.com 玉豆免费节点) 92
+  - 美国(yudou66.com 玉豆免费节点) 93
+  - 美国(yudou66.com 玉豆免费节点) 94
+  - 美国(yudou66.com 玉豆免费节点) 95
+  - 美国(yudou66.com 玉豆免费节点) 96
+  - 加拿大(yudou66.com 玉豆免费节点) 9
+  - 美国(yudou66.com 玉豆免费节点) 97
+  - 美国(yudou66.com 玉豆免费节点) 98
+  - 美国(yudou66.com 玉豆免费节点) 99
+  - 美国(yudou66.com 玉豆免费节点) 100
+  - 德国(yudou66.com 玉豆免费节点) 5
+  - 美国(yudou66.com 玉豆免费节点) 101
+  - 香港(yudou66.com 玉豆免费节点) 2
+  - 美国(yudou66.com 玉豆免费节点) 102
+  - 美国(yudou66.com 玉豆免费节点) 103
+  - 美国(yudou66.com 玉豆免费节点) 104
+  - 美国(yudou66.com 玉豆免费节点) 105
+  - 美国(yudou66.com 玉豆免费节点) 106
+  - 德国(yudou66.com 玉豆免费节点) 6
+  - 俄罗斯(yudou66.com 玉豆免费节点) 4
+  - 美国(yudou66.com 玉豆免费节点) 107
+  - 美国(yudou66.com 玉豆免费节点) 108
+  - 德国(yudou66.com 玉豆免费节点) 7
+  - 美国(yudou66.com 玉豆免费节点) 109
+  - 美国(yudou66.com 玉豆免费节点) 110
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
